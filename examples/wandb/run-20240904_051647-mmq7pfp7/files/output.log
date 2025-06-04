@@ -1,0 +1,187 @@
+2024-09-04 05:16:49 - main - said: load config files.
+Start init data
+XES3G5M dkvmn {'assist2015': {'dpath': '../data/assist2015', 'num_q': 0, 'num_c': 100, 'input_type': ['concepts'], 'max_concepts': 1, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'algebra2005': {'dpath': '../data/algebra2005', 'num_q': 173113, 'num_c': 112, 'input_type': ['questions', 'concepts'], 'max_concepts': 7, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'assist2009': {'dpath': '../data/assist2009', 'num_q': 17737, 'num_c': 123, 'input_type': ['questions', 'concepts'], 'max_concepts': 4, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'slepemapy': {'dpath': '../data/slepemapy', 'num_q': 2913, 'num_c': 1458, 'input_type': ['questions', 'concepts'], 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv'}, 'assist2017': {'dpath': '../data/assist2017', 'num_q': 3162, 'num_c': 102, 'input_type': ['questions', 'concepts'], 'min_seq_len': 3, 'maxlen': 500, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv'}, 'assist2012': {'dpath': '../data/assist2012', 'num_q': 53070, 'num_c': 265, 'input_type': ['questions', 'concepts'], 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv'}, 'statics2011': {'dpath': '../data/statics2011', 'num_q': 0, 'num_c': 1223, 'input_type': ['concepts'], 'max_concepts': 1, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'junyi2015': {'dpath': '../data/junyi2015', 'num_q': 721, 'num_c': 39, 'input_type': ['questions', 'concepts'], 'max_concepts': 1, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv'}, 'bridge2algebra2006': {'dpath': '../data/bridge2algebra2006', 'num_q': 129263, 'num_c': 493, 'input_type': ['questions', 'concepts'], 'max_concepts': 5, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'ednet': {'dpath': '../data/ednet', 'num_q': 11901, 'num_c': 188, 'input_type': ['questions', 'concepts'], 'max_concepts': 7, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'nips_task34': {'dpath': '../data/nips_task34', 'num_q': 948, 'num_c': 57, 'input_type': ['questions', 'concepts'], 'max_concepts': 2, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'poj': {'dpath': '../data/poj', 'num_q': 0, 'num_c': 2748, 'input_type': ['concepts'], 'max_concepts': 1, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'peiyou': {'dpath': '../data/peiyou', 'num_q': 7652, 'num_c': 865, 'input_type': ['questions', 'concepts'], 'max_concepts': 6, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'train_valid_original_file': 'train_valid.csv', 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'ednet5w': {'dpath': '../data/ednet5w', 'num_q': 12235, 'num_c': 188, 'input_type': ['questions', 'concepts'], 'max_concepts': 7, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'XES3G5M': {'dpath': '../data/XES3G5M', 'num_q': 7652, 'num_c': 865, 'input_type': ['questions', 'concepts'], 'max_concepts': 7, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}} 0 64
+2024-09-04 05:16:49 - main - said: init_dataset
+dataset_name:XES3G5M
+Read data from processed file: ../data/XES3G5M/train_valid_sequences.csv_0.pkl
+file path: ../data/XES3G5M/train_valid_sequences.csv, qlen: 6669, clen: 6669, rlen: 6669
+Read data from processed file: ../data/XES3G5M/train_valid_sequences.csv_1_2_3_4.pkl
+file path: ../data/XES3G5M/train_valid_sequences.csv, qlen: 26728, clen: 26728, rlen: 26728
+params: {'dataset_name': 'XES3G5M', 'model_name': 'dkvmn', 'emb_type': 'qid', 'save_dir': 'saved_model', 'seed': 42, 'fold': 0, 'dropout': 0.2, 'dim_s': 200, 'learning_rate': 0.001, 'size_m': 50, 'use_wandb': 1, 'add_uuid': 1}, params_str: XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1
+Start training model: dkvmn, embtype: qid, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a, dataset_name: XES3G5M
+model_config: {'dropout': 0.2, 'dim_s': 200, 'learning_rate': 0.001, 'size_m': 50, 'use_wandb': 1, 'add_uuid': 1}
+train_config: {'batch_size': 64, 'num_epochs': 200, 'optimizer': 'adam', 'seq_len': 200}
+2024-09-04 05:16:49 - main - said: init_model
+model_name:dkvmn
+model is DKVMN(
+  (k_emb_layer): Embedding(865, 200)
+  (v_emb_layer): Embedding(1730, 200)
+  (f_layer): Linear(in_features=400, out_features=200, bias=True)
+  (dropout_layer): Dropout(p=0.2, inplace=False)
+  (p_layer): Linear(in_features=200, out_features=1, bias=True)
+  (e_layer): Linear(in_features=200, out_features=200, bias=True)
+  (a_layer): Linear(in_features=200, out_features=200, bias=True)
+)
+2024-09-04 05:16:51 - main - said: train model
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 1, validauc: 0.7719, validacc: 0.8192, best epoch: 1, best auc: 0.7719, train loss: 0.44186386946903206, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 2, validauc: 0.7858, validacc: 0.8239, best epoch: 2, best auc: 0.7858, train loss: 0.4137717380470318, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 3, validauc: 0.7945, validacc: 0.8265, best epoch: 3, best auc: 0.7945, train loss: 0.40503928045172677, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 4, validauc: 0.7995, validacc: 0.8284, best epoch: 4, best auc: 0.7995, train loss: 0.39939144241665486, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 5, validauc: 0.8036, validacc: 0.83, best epoch: 5, best auc: 0.8036, train loss: 0.3954840758739146, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 6, validauc: 0.8066, validacc: 0.831, best epoch: 6, best auc: 0.8066, train loss: 0.3924543028483027, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 7, validauc: 0.8088, validacc: 0.8318, best epoch: 7, best auc: 0.8088, train loss: 0.39010525137583, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 8, validauc: 0.8107, validacc: 0.8326, best epoch: 8, best auc: 0.8107, train loss: 0.3880438864766787, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 9, validauc: 0.8125, validacc: 0.8333, best epoch: 9, best auc: 0.8125, train loss: 0.3862757339972379, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 10, validauc: 0.8142, validacc: 0.8338, best epoch: 10, best auc: 0.8142, train loss: 0.38450101482036353, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 11, validauc: 0.8155, validacc: 0.8342, best epoch: 11, best auc: 0.8155, train loss: 0.38312350555459745, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 12, validauc: 0.8167, validacc: 0.8347, best epoch: 12, best auc: 0.8167, train loss: 0.38177546481116215, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 13, validauc: 0.8167, validacc: 0.8347, best epoch: 12, best auc: 0.8167, train loss: 0.38068178651657636, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 14, validauc: 0.8187, validacc: 0.8354, best epoch: 14, best auc: 0.8187, train loss: 0.37953662276286604, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 15, validauc: 0.8187, validacc: 0.8354, best epoch: 14, best auc: 0.8187, train loss: 0.3786345044887165, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 16, validauc: 0.8204, validacc: 0.836, best epoch: 16, best auc: 0.8204, train loss: 0.3774906907209501, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 17, validauc: 0.8204, validacc: 0.836, best epoch: 16, best auc: 0.8204, train loss: 0.37672789676229224, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 18, validauc: 0.8218, validacc: 0.8363, best epoch: 18, best auc: 0.8218, train loss: 0.37585459434023194, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 19, validauc: 0.8218, validacc: 0.8363, best epoch: 18, best auc: 0.8218, train loss: 0.3752509132567304, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 20, validauc: 0.8229, validacc: 0.8366, best epoch: 20, best auc: 0.8229, train loss: 0.37446342296730806, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 21, validauc: 0.8229, validacc: 0.8366, best epoch: 20, best auc: 0.8229, train loss: 0.37390067874333727, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 22, validauc: 0.8229, validacc: 0.8366, best epoch: 20, best auc: 0.8229, train loss: 0.3733514547821087, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 23, validauc: 0.8242, validacc: 0.8372, best epoch: 23, best auc: 0.8242, train loss: 0.37275755585767373, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 24, validauc: 0.8242, validacc: 0.8372, best epoch: 23, best auc: 0.8242, train loss: 0.3722755367762555, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 25, validauc: 0.8242, validacc: 0.8372, best epoch: 23, best auc: 0.8242, train loss: 0.3716990116621627, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 26, validauc: 0.8252, validacc: 0.8375, best epoch: 26, best auc: 0.8252, train loss: 0.37123473958401537, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 27, validauc: 0.8252, validacc: 0.8375, best epoch: 26, best auc: 0.8252, train loss: 0.37075680632386343, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 28, validauc: 0.8252, validacc: 0.8375, best epoch: 26, best auc: 0.8252, train loss: 0.37033822995231597, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 29, validauc: 0.8252, validacc: 0.8375, best epoch: 26, best auc: 0.8252, train loss: 0.36986189404689523, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 30, validauc: 0.8262, validacc: 0.8381, best epoch: 30, best auc: 0.8262, train loss: 0.3694579260229823, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 31, validauc: 0.8262, validacc: 0.8381, best epoch: 30, best auc: 0.8262, train loss: 0.3690284712284369, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 32, validauc: 0.8262, validacc: 0.8381, best epoch: 30, best auc: 0.8262, train loss: 0.36877196658326955, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 33, validauc: 0.8262, validacc: 0.8381, best epoch: 30, best auc: 0.8262, train loss: 0.36825647927734334, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 34, validauc: 0.8262, validacc: 0.8381, best epoch: 30, best auc: 0.8262, train loss: 0.3680349634271149, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 35, validauc: 0.8274, validacc: 0.8385, best epoch: 35, best auc: 0.8274, train loss: 0.3676106537823705, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 36, validauc: 0.8274, validacc: 0.8385, best epoch: 35, best auc: 0.8274, train loss: 0.3672661871889197, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 37, validauc: 0.8274, validacc: 0.8385, best epoch: 35, best auc: 0.8274, train loss: 0.36692662276294075, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 38, validauc: 0.8274, validacc: 0.8385, best epoch: 35, best auc: 0.8274, train loss: 0.3666231332375566, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 39, validauc: 0.8274, validacc: 0.8385, best epoch: 35, best auc: 0.8274, train loss: 0.3663162660497467, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 40, validauc: 0.8274, validacc: 0.8385, best epoch: 35, best auc: 0.8274, train loss: 0.3660304606838954, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 41, validauc: 0.8274, validacc: 0.8385, best epoch: 35, best auc: 0.8274, train loss: 0.36584852423081654, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 42, validauc: 0.8274, validacc: 0.8385, best epoch: 35, best auc: 0.8274, train loss: 0.3655144909916513, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 43, validauc: 0.8285, validacc: 0.8389, best epoch: 43, best auc: 0.8285, train loss: 0.3652137359361354, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 44, validauc: 0.8285, validacc: 0.8389, best epoch: 43, best auc: 0.8285, train loss: 0.3649369434846633, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 45, validauc: 0.8285, validacc: 0.8389, best epoch: 43, best auc: 0.8285, train loss: 0.36468320059315384, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 46, validauc: 0.8285, validacc: 0.8389, best epoch: 43, best auc: 0.8285, train loss: 0.3643678362303852, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 47, validauc: 0.8285, validacc: 0.8389, best epoch: 43, best auc: 0.8285, train loss: 0.3642210396720327, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 48, validauc: 0.8285, validacc: 0.8389, best epoch: 43, best auc: 0.8285, train loss: 0.36398108470090884, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 49, validauc: 0.8285, validacc: 0.8389, best epoch: 43, best auc: 0.8285, train loss: 0.3638345850028746, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 50, validauc: 0.8285, validacc: 0.8389, best epoch: 43, best auc: 0.8285, train loss: 0.36355575162524306, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 51, validauc: 0.8285, validacc: 0.8389, best epoch: 43, best auc: 0.8285, train loss: 0.36327144568986347, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 52, validauc: 0.8285, validacc: 0.8389, best epoch: 43, best auc: 0.8285, train loss: 0.36310141503568577, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (1023185,), ps.shape: (1023185,)
+Epoch: 53, validauc: 0.8285, validacc: 0.8389, best epoch: 43, best auc: 0.8285, train loss: 0.36290283548828306, emb_type: qid, model: dkvmn, save_dir: saved_model/XES3G5M_dkvmn_qid_saved_model_42_0_0.2_200_0.001_50_1_1_eb200e3f-75a7-4427-9fa7-dd7bfbc2ed2a
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+fold	modelname	embtype	testauc	testacc	window_testauc	window_testacc	validauc	validacc	best_epoch
+0	dkvmn	qid	-1	-1	-1	-1	0.8284567684827397	0.838878599666727	43
+end:2024-09-04 06:40:38.839925

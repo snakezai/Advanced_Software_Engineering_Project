@@ -1,0 +1,692 @@
+2024-09-04 03:20:28,050 INFO    StreamThr :3999740 [internal.py:wandb_internal():86] W&B internal server running at pid: 3999740, started at: 2024-09-04 03:20:28.050001
+2024-09-04 03:20:28,077 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status
+2024-09-04 03:20:28,079 INFO    WriterThread:3999740 [datastore.py:open_for_write():87] open: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/run-ia85uguj.wandb
+2024-09-04 03:20:28,079 DEBUG   SenderThread:3999740 [sender.py:send():379] send: header
+2024-09-04 03:20:28,079 DEBUG   SenderThread:3999740 [sender.py:send():379] send: run
+2024-09-04 03:20:28,111 DEBUG   SenderThread:3999740 [gitlib.py:_init_repo():56] git repository is invalid
+2024-09-04 03:20:29,249 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: check_version
+2024-09-04 03:20:29,272 INFO    SenderThread:3999740 [dir_watcher.py:__init__():211] watching files in: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files
+2024-09-04 03:20:29,272 INFO    SenderThread:3999740 [sender.py:_start_run_threads():1124] run started: ia85uguj with start time 1725420028.039317
+2024-09-04 03:20:29,272 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: check_version
+2024-09-04 03:20:29,612 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: run_start
+2024-09-04 03:20:29,620 DEBUG   HandlerThread:3999740 [system_info.py:__init__():26] System info init
+2024-09-04 03:20:29,621 DEBUG   HandlerThread:3999740 [system_info.py:__init__():41] System info init done
+2024-09-04 03:20:29,621 INFO    HandlerThread:3999740 [system_monitor.py:start():194] Starting system monitor
+2024-09-04 03:20:29,625 INFO    SystemMonitor:3999740 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-09-04 03:20:29,625 INFO    HandlerThread:3999740 [system_monitor.py:probe():214] Collecting system info
+2024-09-04 03:20:29,658 INFO    SystemMonitor:3999740 [interfaces.py:start():190] Started cpu monitoring
+2024-09-04 03:20:29,685 INFO    SystemMonitor:3999740 [interfaces.py:start():190] Started disk monitoring
+2024-09-04 03:20:29,687 INFO    SystemMonitor:3999740 [interfaces.py:start():190] Started gpu monitoring
+2024-09-04 03:20:29,705 INFO    SystemMonitor:3999740 [interfaces.py:start():190] Started memory monitoring
+2024-09-04 03:20:29,707 INFO    SystemMonitor:3999740 [interfaces.py:start():190] Started network monitoring
+2024-09-04 03:20:29,712 DEBUG   HandlerThread:3999740 [system_info.py:probe():150] Probing system
+2024-09-04 03:20:29,712 DEBUG   HandlerThread:3999740 [gitlib.py:_init_repo():56] git repository is invalid
+2024-09-04 03:20:29,712 DEBUG   HandlerThread:3999740 [system_info.py:probe():198] Probing system done
+2024-09-04 03:20:29,712 DEBUG   HandlerThread:3999740 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-113-generic-x86_64-with-glibc2.35', 'python': '3.11.9', 'heartbeatAt': '2024-09-04T03:20:29.712367', 'startedAt': '2024-09-04T03:20:28.015978', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb_simplekt_train.py', 'codePathLocal': 'wandb_simplekt_train.py', 'codePath': 'wandb_simplekt_train.py', 'host': 'pc', 'username': 'lizz', 'executable': '/home/zhjy/lizz/anaconda3/envs/pykt/bin/python', 'cpu_count': 24, 'cpu_count_logical': 48, 'cpu_freq': {'current': 2799.9472083333344, 'min': 800.0, 'max': 2001.0}, 'cpu_freq_per_core': [{'current': 2799.998, 'min': 800.0, 'max': 2001.0}, {'current': 2799.998, 'min': 800.0, 'max': 2001.0}, {'current': 2800.0, 'min': 800.0, 'max': 2001.0}, {'current': 2800.0, 'min': 800.0, 'max': 2001.0}, {'current': 2800.0, 'min': 800.0, 'max': 2001.0}, {'current': 2800.001, 'min': 800.0, 'max': 2001.0}, {'current': 2799.998, 'min': 800.0, 'max': 2001.0}, {'current': 2800.0, 'min': 800.0, 'max': 2001.0}, {'current': 2800.001, 'min': 800.0, 'max': 2001.0}, {'current': 2800.0, 'min': 800.0, 'max': 2001.0}, {'current': 2800.0, 'min': 800.0, 'max': 2001.0}, {'current': 2800.001, 'min': 800.0, 'max': 2001.0}, {'current': 2800.001, 'min': 800.0, 'max': 2001.0}, {'current': 2800.0, 'min': 800.0, 'max': 2001.0}, {'current': 2799.802, 'min': 800.0, 'max': 2001.0}, {'current': 2799.998, 'min': 800.0, 'max': 2001.0}, {'current': 2800.001, 'min': 800.0, 'max': 2001.0}, {'current': 2798.914, 'min': 800.0, 'max': 2001.0}, {'current': 2799.503, 'min': 800.0, 'max': 2001.0}, {'current': 2800.0, 'min': 800.0, 'max': 2001.0}, {'current': 2800.0, 'min': 800.0, 'max': 2001.0}, {'current': 2800.0, 'min': 800.0, 'max': 2001.0}, {'current': 2800.001, 'min': 800.0, 'max': 2001.0}, {'current': 2800.0, 'min': 800.0, 'max': 2001.0}, {'current': 2799.998, 'min': 800.0, 'max': 2001.0}, {'current': 2799.998, 'min': 800.0, 'max': 2001.0}, {'current': 2800.0, 'min': 800.0, 'max': 2001.0}, {'current': 2799.998, 'min': 800.0, 'max': 2001.0}, {'current': 2800.002, 'min': 800.0, 'max': 2001.0}, {'current': 2799.998, 'min': 800.0, 'max': 2001.0}, {'current': 2799.998, 'min': 800.0, 'max': 2001.0}, {'current': 2799.998, 'min': 800.0, 'max': 2001.0}, {'current': 2800.001, 'min': 800.0, 'max': 2001.0}, {'current': 2800.0, 'min': 800.0, 'max': 2001.0}, {'current': 2800.0, 'min': 800.0, 'max': 2001.0}, {'current': 2800.0, 'min': 800.0, 'max': 2001.0}, {'current': 2800.0, 'min': 800.0, 'max': 2001.0}, {'current': 2800.0, 'min': 800.0, 'max': 2001.0}, {'current': 2800.0, 'min': 800.0, 'max': 2001.0}, {'current': 2800.0, 'min': 800.0, 'max': 2001.0}, {'current': 2795.954, 'min': 800.0, 'max': 2001.0}, {'current': 2798.935, 'min': 800.0, 'max': 2001.0}, {'current': 2799.269, 'min': 800.0, 'max': 2001.0}, {'current': 2800.0, 'min': 800.0, 'max': 2001.0}, {'current': 2800.001, 'min': 800.0, 'max': 2001.0}, {'current': 2800.0, 'min': 800.0, 'max': 2001.0}, {'current': 2800.0, 'min': 800.0, 'max': 2001.0}, {'current': 2800.0, 'min': 800.0, 'max': 2001.0}], 'disk': {'/': {'total': 866.9605102539062, 'used': 173.11091232299805}}, 'gpu': 'NVIDIA GeForce RTX 4090', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4090', 'memory_total': 25757220864}, {'name': 'NVIDIA GeForce RTX 4090', 'memory_total': 25757220864}, {'name': 'NVIDIA GeForce RTX 4090', 'memory_total': 25757220864}, {'name': 'NVIDIA GeForce RTX 4090', 'memory_total': 25757220864}], 'memory': {'total': 251.56685256958008}}
+2024-09-04 03:20:29,712 INFO    HandlerThread:3999740 [system_monitor.py:probe():224] Finished collecting system info
+2024-09-04 03:20:29,712 INFO    HandlerThread:3999740 [system_monitor.py:probe():227] Publishing system info
+2024-09-04 03:20:29,712 DEBUG   HandlerThread:3999740 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-09-04 03:20:29,739 ERROR   HandlerThread:3999740 [system_info.py:_save_conda():221] Error saving conda packages: [Errno 2] No such file or directory: 'conda'
+Traceback (most recent call last):
+  File "/home/zhjy/lizz/anaconda3/envs/pykt/lib/python3.11/site-packages/wandb/sdk/internal/system/system_info.py", line 214, in _save_conda
+    subprocess.call(
+  File "/home/zhjy/lizz/anaconda3/envs/pykt/lib/python3.11/subprocess.py", line 389, in call
+    with Popen(*popenargs, **kwargs) as p:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhjy/lizz/anaconda3/envs/pykt/lib/python3.11/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/home/zhjy/lizz/anaconda3/envs/pykt/lib/python3.11/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'conda'
+2024-09-04 03:20:29,740 DEBUG   HandlerThread:3999740 [system_info.py:_save_conda():222] Saving conda packages done
+2024-09-04 03:20:29,741 INFO    HandlerThread:3999740 [system_monitor.py:probe():229] Finished publishing system info
+2024-09-04 03:20:29,744 DEBUG   SenderThread:3999740 [sender.py:send():379] send: files
+2024-09-04 03:20:29,744 INFO    SenderThread:3999740 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-09-04 03:20:29,941 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: python_packages
+2024-09-04 03:20:29,941 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: python_packages
+2024-09-04 03:20:29,943 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:20:29,943 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:20:29,952 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:20:30,260 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_created():271] file/dir created: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/requirements.txt
+2024-09-04 03:20:30,261 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_created():271] file/dir created: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/wandb-metadata.json
+2024-09-04 03:20:30,261 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_created():271] file/dir created: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/conda-environment.yaml
+2024-09-04 03:20:30,576 INFO    wandb-upload_0:3999740 [upload_job.py:push():131] Uploaded file /tmp/tmp0oxtgqf0wandb/mhbn1450-wandb-metadata.json
+2024-09-04 03:20:30,746 DEBUG   SenderThread:3999740 [sender.py:send():379] send: telemetry
+2024-09-04 03:20:31,271 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_created():271] file/dir created: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:20:33,267 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:20:33,271 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:20:38,271 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:20:43,277 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:20:44,944 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:20:44,944 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:20:44,946 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:20:49,203 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:20:51,276 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:20:53,277 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:20:54,629 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:20:59,632 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:20:59,943 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:20:59,944 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:20:59,948 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:21:00,283 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/config.yaml
+2024-09-04 03:21:05,211 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:21:07,285 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:21:11,126 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:21:14,944 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:21:14,944 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:21:14,948 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:21:16,214 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:21:22,098 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:21:23,290 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:21:27,099 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:21:29,709 DEBUG   SystemMonitor:3999740 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-09-04 03:21:29,711 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:21:29,944 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:21:29,944 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:21:29,948 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:21:32,282 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:21:37,294 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:21:38,274 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:21:43,280 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:21:44,944 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:21:44,944 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:21:44,948 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:21:49,158 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:21:51,306 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:21:53,307 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:21:54,999 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:21:59,712 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:21:59,944 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:21:59,944 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:21:59,948 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:22:00,169 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:22:05,179 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:22:07,315 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:22:09,316 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:22:10,603 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:22:14,944 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:22:14,944 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:22:14,948 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:22:16,244 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:22:21,245 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:22:23,320 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:22:25,321 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:22:26,619 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:22:29,712 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:22:29,944 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:22:29,945 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:22:29,948 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:22:32,192 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:22:37,324 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:22:37,539 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:22:39,325 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:22:42,539 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:22:44,944 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:22:44,945 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:22:44,948 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:22:48,192 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:22:51,329 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:22:53,967 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:22:58,970 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:22:59,713 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:22:59,948 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:22:59,948 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:22:59,949 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:23:04,297 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:23:05,333 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:23:07,336 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:23:09,946 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:23:14,946 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:23:14,948 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:23:14,948 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:23:14,950 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:23:20,084 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:23:21,340 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:23:23,341 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:23:25,900 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:23:29,714 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:23:29,948 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:23:29,948 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:23:29,995 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:23:31,270 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:23:36,495 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:23:37,353 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:23:41,503 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:23:44,948 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:23:44,949 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:23:44,956 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:23:47,233 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:23:51,357 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:23:52,456 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:23:57,456 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:23:59,715 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:23:59,949 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:23:59,949 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:23:59,961 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:24:03,219 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:24:05,362 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:24:07,362 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:24:08,823 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:24:13,823 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:24:14,949 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:24:14,949 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:24:14,957 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:24:18,834 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:24:21,377 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:24:24,614 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:24:29,615 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:24:29,719 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:24:29,949 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:24:29,949 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:24:29,957 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:24:35,270 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:24:35,381 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:24:40,270 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:24:44,949 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:24:44,949 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:24:44,957 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:24:46,231 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:24:49,390 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:24:51,390 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:24:52,006 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:24:57,007 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:24:59,721 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:24:59,949 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:24:59,949 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:24:59,957 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:25:02,193 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:25:05,395 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:25:07,395 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:25:07,887 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:25:12,888 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:25:14,949 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:25:14,949 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:25:14,957 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:25:18,339 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:25:21,399 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:25:23,502 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:25:28,503 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:25:29,721 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:25:29,949 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:25:29,949 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:25:29,957 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:25:34,240 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:25:37,404 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:25:39,991 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:25:44,949 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:25:44,950 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:25:44,957 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:25:45,267 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:25:50,267 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:25:55,268 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:25:59,411 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:25:59,723 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:25:59,950 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:25:59,950 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:25:59,963 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:26:01,254 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:26:06,254 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:26:11,262 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:26:14,950 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:26:14,950 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:26:14,995 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:26:17,263 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:26:21,436 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:26:22,612 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:26:27,619 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:26:29,770 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:26:29,956 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:26:29,956 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:26:29,968 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:26:33,255 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:26:38,259 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:26:43,260 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:26:44,973 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:26:44,973 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:26:44,973 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:26:45,443 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:26:47,444 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:26:49,236 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:26:54,236 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:26:59,237 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:26:59,729 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:26:59,973 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:26:59,973 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:26:59,974 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:27:04,254 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:27:07,453 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:27:10,204 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:27:14,979 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:27:14,979 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:27:14,980 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:27:15,235 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:27:20,236 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:27:25,239 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:27:29,730 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:27:29,973 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:27:29,973 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:27:29,975 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:27:31,197 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:27:31,460 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:27:36,197 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:27:41,201 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:27:44,974 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:27:44,974 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:27:45,015 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:27:46,212 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:27:51,213 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:27:55,468 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:27:57,012 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:27:57,468 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:27:59,731 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:27:59,974 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:27:59,974 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:27:59,974 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:28:02,286 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:28:07,287 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:28:12,287 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:28:14,990 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:28:14,991 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:28:14,993 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:28:17,805 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:28:19,478 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:28:23,586 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:28:28,595 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:28:29,732 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:28:29,990 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:28:29,990 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:28:29,990 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:28:34,282 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:28:39,283 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:28:41,492 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:28:43,493 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:28:44,591 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:28:44,990 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:28:44,991 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:28:44,991 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:28:50,315 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:28:55,312 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:28:59,733 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:28:59,990 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:28:59,992 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:28:59,993 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:29:01,241 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:29:05,516 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:29:07,233 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:29:07,519 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:29:12,237 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:29:14,990 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:29:14,991 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:29:14,991 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:29:17,286 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:29:22,289 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:29:27,290 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:29:29,538 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:29:29,734 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:29:29,990 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:29:29,994 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:29:29,995 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:29:33,238 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:29:38,243 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:29:43,244 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:29:44,991 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:29:44,991 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:29:44,991 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:29:48,299 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:29:53,548 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:29:53,763 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:29:58,763 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:29:59,735 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:29:59,991 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:29:59,993 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:29:59,993 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:30:04,287 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:30:09,287 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:30:14,288 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:30:14,995 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:30:14,995 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:30:14,995 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:30:17,556 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:30:20,124 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:30:25,129 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:30:29,753 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:30:29,991 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:30:29,991 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:30:29,992 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:30:30,292 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:30:35,293 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:30:39,581 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:30:40,840 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:30:44,991 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:30:44,997 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:30:44,997 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:30:46,276 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:30:51,277 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:30:56,278 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:30:59,737 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:30:59,991 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:30:59,997 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:30:59,997 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:31:01,590 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:31:02,067 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:31:03,590 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:31:07,068 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:31:12,068 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:31:14,991 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:31:14,997 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:31:14,997 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:31:17,216 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:31:22,864 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:31:23,617 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:31:25,617 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:31:27,865 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:31:29,738 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:31:29,992 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:31:29,997 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:31:29,997 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:31:33,229 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:31:38,235 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:31:43,243 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:31:44,992 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:31:44,997 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:31:44,997 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:31:48,802 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:31:49,624 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:31:51,625 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:31:53,807 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:31:58,815 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:31:59,739 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:31:59,992 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:31:59,998 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:31:59,998 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:32:04,386 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:32:09,387 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:32:13,634 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:32:14,748 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:32:14,992 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:32:14,998 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:32:14,998 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:32:15,635 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:32:20,391 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:32:25,392 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:32:29,740 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:32:29,992 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:32:29,998 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:32:29,998 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:32:31,357 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:32:35,643 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:32:36,933 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:32:37,644 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:32:41,933 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:32:44,992 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:32:44,998 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:32:44,998 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:32:47,296 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:32:52,297 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:32:57,298 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:32:59,658 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:32:59,740 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:32:59,992 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:33:00,002 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:33:00,003 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:33:02,353 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:33:07,353 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:33:12,363 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:33:14,993 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:33:15,003 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:33:15,003 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:33:18,304 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:33:21,670 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:33:24,096 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:33:29,099 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:33:29,742 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:33:29,993 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:33:30,003 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:33:30,003 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:33:34,312 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:33:39,318 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:33:41,676 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:33:43,677 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:33:44,993 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:33:44,993 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:33:45,003 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:33:45,003 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:33:50,344 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:33:55,345 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:33:59,743 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:33:59,993 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:34:00,003 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:34:00,003 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:34:00,351 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:34:06,052 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:34:07,687 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:34:11,055 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:34:14,993 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:34:15,003 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:34:15,003 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:34:16,385 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:34:21,379 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:34:26,380 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:34:27,698 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:34:29,698 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:34:29,769 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:34:29,993 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:34:30,003 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:34:30,003 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:34:32,298 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:34:37,304 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:34:42,299 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:34:44,994 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:34:45,003 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:34:45,003 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:34:48,291 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:34:51,705 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:34:53,772 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:34:58,775 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:34:59,744 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:34:59,994 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:35:00,009 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:35:00,009 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:35:04,345 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:35:09,346 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:35:15,004 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:35:15,004 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:35:15,005 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:35:15,262 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:35:15,712 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:35:17,712 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:35:20,267 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:35:25,267 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:35:29,748 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:35:29,999 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:35:30,005 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-04 03:35:30,006 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: stop_status
+2024-09-04 03:35:30,284 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:35:34,161 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: partial_history
+2024-09-04 03:35:34,162 DEBUG   SenderThread:3999740 [sender.py:send():379] send: history
+2024-09-04 03:35:34,163 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: summary_record
+2024-09-04 03:35:34,163 INFO    SenderThread:3999740 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-09-04 03:35:34,169 DEBUG   SenderThread:3999740 [sender.py:send():379] send: exit
+2024-09-04 03:35:34,169 INFO    SenderThread:3999740 [sender.py:send_exit():586] handling exit code: 0
+2024-09-04 03:35:34,170 INFO    SenderThread:3999740 [sender.py:send_exit():588] handling runtime: 904
+2024-09-04 03:35:34,170 INFO    SenderThread:3999740 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-09-04 03:35:34,170 INFO    SenderThread:3999740 [sender.py:send_exit():594] send defer
+2024-09-04 03:35:34,170 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: defer
+2024-09-04 03:35:34,170 INFO    HandlerThread:3999740 [handler.py:handle_request_defer():172] handle defer: 0
+2024-09-04 03:35:34,170 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: defer
+2024-09-04 03:35:34,170 INFO    SenderThread:3999740 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-09-04 03:35:34,170 INFO    SenderThread:3999740 [sender.py:transition_state():614] send defer: 1
+2024-09-04 03:35:34,170 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: defer
+2024-09-04 03:35:34,170 INFO    HandlerThread:3999740 [handler.py:handle_request_defer():172] handle defer: 1
+2024-09-04 03:35:34,170 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: defer
+2024-09-04 03:35:34,170 INFO    SenderThread:3999740 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-09-04 03:35:34,171 INFO    SenderThread:3999740 [sender.py:transition_state():614] send defer: 2
+2024-09-04 03:35:34,171 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: defer
+2024-09-04 03:35:34,171 INFO    HandlerThread:3999740 [handler.py:handle_request_defer():172] handle defer: 2
+2024-09-04 03:35:34,171 INFO    HandlerThread:3999740 [system_monitor.py:finish():203] Stopping system monitor
+2024-09-04 03:35:34,171 DEBUG   SystemMonitor:3999740 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-09-04 03:35:34,171 DEBUG   SystemMonitor:3999740 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-09-04 03:35:34,172 INFO    HandlerThread:3999740 [interfaces.py:finish():202] Joined cpu monitor
+2024-09-04 03:35:34,172 INFO    HandlerThread:3999740 [interfaces.py:finish():202] Joined disk monitor
+2024-09-04 03:35:34,723 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_created():271] file/dir created: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/wandb-summary.json
+2024-09-04 03:35:34,995 INFO    HandlerThread:3999740 [interfaces.py:finish():202] Joined gpu monitor
+2024-09-04 03:35:34,995 INFO    HandlerThread:3999740 [interfaces.py:finish():202] Joined memory monitor
+2024-09-04 03:35:34,995 INFO    HandlerThread:3999740 [interfaces.py:finish():202] Joined network monitor
+2024-09-04 03:35:34,996 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: defer
+2024-09-04 03:35:34,996 INFO    SenderThread:3999740 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-09-04 03:35:34,996 INFO    SenderThread:3999740 [sender.py:transition_state():614] send defer: 3
+2024-09-04 03:35:34,996 DEBUG   SenderThread:3999740 [sender.py:send():379] send: stats
+2024-09-04 03:35:34,996 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: defer
+2024-09-04 03:35:34,996 INFO    HandlerThread:3999740 [handler.py:handle_request_defer():172] handle defer: 3
+2024-09-04 03:35:34,996 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: defer
+2024-09-04 03:35:34,996 INFO    SenderThread:3999740 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-09-04 03:35:34,996 INFO    SenderThread:3999740 [sender.py:transition_state():614] send defer: 4
+2024-09-04 03:35:34,996 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: defer
+2024-09-04 03:35:34,996 INFO    HandlerThread:3999740 [handler.py:handle_request_defer():172] handle defer: 4
+2024-09-04 03:35:34,997 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: defer
+2024-09-04 03:35:34,997 INFO    SenderThread:3999740 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-09-04 03:35:34,997 INFO    SenderThread:3999740 [sender.py:transition_state():614] send defer: 5
+2024-09-04 03:35:34,997 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: defer
+2024-09-04 03:35:34,997 INFO    HandlerThread:3999740 [handler.py:handle_request_defer():172] handle defer: 5
+2024-09-04 03:35:34,997 DEBUG   SenderThread:3999740 [sender.py:send():379] send: summary
+2024-09-04 03:35:34,997 INFO    SenderThread:3999740 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-09-04 03:35:34,997 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: defer
+2024-09-04 03:35:34,997 INFO    SenderThread:3999740 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-09-04 03:35:34,997 INFO    SenderThread:3999740 [sender.py:transition_state():614] send defer: 6
+2024-09-04 03:35:34,997 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: defer
+2024-09-04 03:35:34,997 INFO    HandlerThread:3999740 [handler.py:handle_request_defer():172] handle defer: 6
+2024-09-04 03:35:34,998 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: defer
+2024-09-04 03:35:34,998 INFO    SenderThread:3999740 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-09-04 03:35:34,998 INFO    SenderThread:3999740 [sender.py:transition_state():614] send defer: 7
+2024-09-04 03:35:34,998 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:35:34,998 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: defer
+2024-09-04 03:35:34,998 INFO    HandlerThread:3999740 [handler.py:handle_request_defer():172] handle defer: 7
+2024-09-04 03:35:34,998 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: defer
+2024-09-04 03:35:34,998 INFO    SenderThread:3999740 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-09-04 03:35:35,170 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-04 03:35:35,331 INFO    SenderThread:3999740 [sender.py:transition_state():614] send defer: 8
+2024-09-04 03:35:35,331 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: poll_exit
+2024-09-04 03:35:35,331 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: defer
+2024-09-04 03:35:35,331 INFO    HandlerThread:3999740 [handler.py:handle_request_defer():172] handle defer: 8
+2024-09-04 03:35:35,331 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: defer
+2024-09-04 03:35:35,331 INFO    SenderThread:3999740 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-09-04 03:35:35,332 INFO    SenderThread:3999740 [job_builder.py:build():318] Attempting to build job artifact
+2024-09-04 03:35:35,332 INFO    SenderThread:3999740 [job_builder.py:_get_source_type():466] no source found
+2024-09-04 03:35:35,332 INFO    SenderThread:3999740 [sender.py:transition_state():614] send defer: 9
+2024-09-04 03:35:35,332 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: defer
+2024-09-04 03:35:35,332 INFO    HandlerThread:3999740 [handler.py:handle_request_defer():172] handle defer: 9
+2024-09-04 03:35:35,332 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: defer
+2024-09-04 03:35:35,332 INFO    SenderThread:3999740 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-09-04 03:35:35,332 INFO    SenderThread:3999740 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-09-04 03:35:35,723 INFO    Thread-12 :3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:35:35,724 INFO    SenderThread:3999740 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/wandb-summary.json
+2024-09-04 03:35:35,730 INFO    SenderThread:3999740 [dir_watcher.py:finish():388] scan: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files
+2024-09-04 03:35:35,730 INFO    SenderThread:3999740 [dir_watcher.py:finish():402] scan save: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/config.yaml config.yaml
+2024-09-04 03:35:35,731 INFO    SenderThread:3999740 [dir_watcher.py:finish():402] scan save: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/wandb-metadata.json wandb-metadata.json
+2024-09-04 03:35:35,731 INFO    SenderThread:3999740 [dir_watcher.py:finish():402] scan save: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/requirements.txt requirements.txt
+2024-09-04 03:35:35,731 INFO    SenderThread:3999740 [dir_watcher.py:finish():402] scan save: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log output.log
+2024-09-04 03:35:35,731 INFO    SenderThread:3999740 [dir_watcher.py:finish():402] scan save: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/wandb-summary.json wandb-summary.json
+2024-09-04 03:35:35,731 INFO    SenderThread:3999740 [dir_watcher.py:finish():402] scan save: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/conda-environment.yaml conda-environment.yaml
+2024-09-04 03:35:35,731 INFO    SenderThread:3999740 [sender.py:transition_state():614] send defer: 10
+2024-09-04 03:35:35,731 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: defer
+2024-09-04 03:35:35,731 INFO    HandlerThread:3999740 [handler.py:handle_request_defer():172] handle defer: 10
+2024-09-04 03:35:35,734 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: defer
+2024-09-04 03:35:35,734 INFO    SenderThread:3999740 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-09-04 03:35:35,734 INFO    SenderThread:3999740 [file_pusher.py:finish():172] shutting down file pusher
+2024-09-04 03:35:36,170 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-04 03:35:36,171 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: poll_exit
+2024-09-04 03:35:36,430 INFO    wandb-upload_0:3999740 [upload_job.py:push():131] Uploaded file /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/config.yaml
+2024-09-04 03:35:36,764 INFO    wandb-upload_3:3999740 [upload_job.py:push():131] Uploaded file /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/wandb-summary.json
+2024-09-04 03:35:36,917 INFO    wandb-upload_1:3999740 [upload_job.py:push():131] Uploaded file /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/requirements.txt
+2024-09-04 03:35:37,171 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-04 03:35:37,171 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: poll_exit
+2024-09-04 03:35:38,172 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-04 03:35:38,172 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: poll_exit
+2024-09-04 03:35:39,176 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-04 03:35:39,179 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: poll_exit
+2024-09-04 03:35:40,178 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-04 03:35:40,179 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: poll_exit
+2024-09-04 03:35:41,179 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:35:41,179 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-04 03:35:41,180 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: poll_exit
+2024-09-04 03:35:42,180 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-04 03:35:42,180 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: poll_exit
+2024-09-04 03:35:43,180 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-04 03:35:43,181 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: poll_exit
+2024-09-04 03:35:44,181 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-04 03:35:44,181 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: poll_exit
+2024-09-04 03:35:45,181 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-04 03:35:45,182 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: poll_exit
+2024-09-04 03:35:46,182 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-04 03:35:46,182 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: poll_exit
+2024-09-04 03:35:46,182 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:35:47,182 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-04 03:35:47,183 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: poll_exit
+2024-09-04 03:35:48,183 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-04 03:35:48,183 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: poll_exit
+2024-09-04 03:35:49,184 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-04 03:35:49,184 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: poll_exit
+2024-09-04 03:35:50,185 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-04 03:35:50,185 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: poll_exit
+2024-09-04 03:35:51,185 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-04 03:35:51,185 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: poll_exit
+2024-09-04 03:35:51,186 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:35:52,191 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-04 03:35:52,191 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: poll_exit
+2024-09-04 03:35:53,191 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-04 03:35:53,192 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: poll_exit
+2024-09-04 03:35:54,192 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-04 03:35:54,192 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: poll_exit
+2024-09-04 03:35:55,192 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-04 03:35:55,192 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: poll_exit
+2024-09-04 03:35:56,193 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-04 03:35:56,193 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: poll_exit
+2024-09-04 03:35:56,193 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: status_report
+2024-09-04 03:35:57,199 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-04 03:35:57,199 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: poll_exit
+2024-09-04 03:35:58,031 INFO    wandb-upload_2:3999740 [upload_job.py:push():131] Uploaded file /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/files/output.log
+2024-09-04 03:35:58,193 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-04 03:35:58,194 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: poll_exit
+2024-09-04 03:35:58,232 INFO    Thread-11 (_thread_body):3999740 [sender.py:transition_state():614] send defer: 11
+2024-09-04 03:35:58,233 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: defer
+2024-09-04 03:35:58,233 INFO    HandlerThread:3999740 [handler.py:handle_request_defer():172] handle defer: 11
+2024-09-04 03:35:58,233 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: defer
+2024-09-04 03:35:58,233 INFO    SenderThread:3999740 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-09-04 03:35:58,233 INFO    SenderThread:3999740 [file_pusher.py:join():178] waiting for file pusher
+2024-09-04 03:35:58,233 INFO    SenderThread:3999740 [sender.py:transition_state():614] send defer: 12
+2024-09-04 03:35:58,234 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: defer
+2024-09-04 03:35:58,234 INFO    HandlerThread:3999740 [handler.py:handle_request_defer():172] handle defer: 12
+2024-09-04 03:35:58,234 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: defer
+2024-09-04 03:35:58,234 INFO    SenderThread:3999740 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-09-04 03:35:58,234 INFO    SenderThread:3999740 [file_stream.py:finish():614] file stream finish called
+2024-09-04 03:35:58,991 INFO    SenderThread:3999740 [file_stream.py:finish():618] file stream finish is done
+2024-09-04 03:35:58,991 INFO    SenderThread:3999740 [sender.py:transition_state():614] send defer: 13
+2024-09-04 03:35:58,991 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: defer
+2024-09-04 03:35:58,991 INFO    HandlerThread:3999740 [handler.py:handle_request_defer():172] handle defer: 13
+2024-09-04 03:35:58,991 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: defer
+2024-09-04 03:35:58,992 INFO    SenderThread:3999740 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-09-04 03:35:58,992 INFO    SenderThread:3999740 [sender.py:transition_state():614] send defer: 14
+2024-09-04 03:35:58,992 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: defer
+2024-09-04 03:35:58,992 INFO    HandlerThread:3999740 [handler.py:handle_request_defer():172] handle defer: 14
+2024-09-04 03:35:58,992 DEBUG   SenderThread:3999740 [sender.py:send():379] send: final
+2024-09-04 03:35:58,992 DEBUG   SenderThread:3999740 [sender.py:send():379] send: footer
+2024-09-04 03:35:58,992 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: defer
+2024-09-04 03:35:58,992 INFO    SenderThread:3999740 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-09-04 03:35:58,992 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-04 03:35:58,992 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-04 03:35:58,993 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: server_info
+2024-09-04 03:35:58,993 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: get_summary
+2024-09-04 03:35:58,993 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: sampled_history
+2024-09-04 03:35:58,993 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-04 03:35:58,993 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: poll_exit
+2024-09-04 03:35:58,993 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: poll_exit
+2024-09-04 03:35:58,993 DEBUG   SenderThread:3999740 [sender.py:send_request():406] send_request: server_info
+2024-09-04 03:35:59,208 INFO    MainThread:3999740 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2024-09-04 03:35:59,209 INFO    MainThread:3999740 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2024-09-04 03:35:59,209 INFO    MainThread:3999740 [wandb_run.py:_footer_sync_info():3895] logging synced files
+2024-09-04 03:35:59,209 DEBUG   HandlerThread:3999740 [handler.py:handle_request():146] handle_request: shutdown
+2024-09-04 03:35:59,209 INFO    HandlerThread:3999740 [handler.py:finish():866] shutting down handler
+2024-09-04 03:35:59,993 INFO    WriterThread:3999740 [datastore.py:close():296] close: /home/zhjy/lizz/Exp_DataSavePath/pykt/pykt-toolkit-main/examples/wandb/run-20240904_032028-ia85uguj/run-ia85uguj.wandb
+2024-09-04 03:36:00,208 INFO    SenderThread:3999740 [sender.py:finish():1546] shutting down sender
+2024-09-04 03:36:00,209 INFO    SenderThread:3999740 [file_pusher.py:finish():172] shutting down file pusher
+2024-09-04 03:36:00,209 INFO    SenderThread:3999740 [file_pusher.py:join():178] waiting for file pusher

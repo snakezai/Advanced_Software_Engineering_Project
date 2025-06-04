@@ -1,0 +1,44 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.8.17",
+    "heartbeatAt": "2025-04-02T05:31:47.327599",
+    "startedAt": "2025-04-02T05:31:34.330056",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "E:\\zjh\\pykt-toolkit-main\\examples\\wandb_dkt_train.py",
+    "codePath": "wandb_dkt_train.py",
+    "host": "DESKTOP-CLCGSSC",
+    "username": "IERI1",
+    "executable": "D:\\anaconda\\envs\\pyKT\\python.exe",
+    "cpu_count": 24,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 3000.0,
+        "min": 0.0,
+        "max": 3000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3000.0,
+            "min": 0.0,
+            "max": 3000.0
+        }
+    ],
+    "disk": {
+        "total": 1862.9990234375,
+        "used": 1476.25146484375
+    },
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4090",
+            "memory_total": 25757220864
+        }
+    ],
+    "memory": {
+        "total": 63.813720703125
+    }
+}

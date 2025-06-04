@@ -1,0 +1,1 @@
+{"validauc": 0.8993737925347686, "validacc": 0.8324395591372363, "best_epoch": 23, "model_save_path": "saved_model/assist2009_simplekt_qid_saved_model_42_0_0.1_256_256_2_4_0.5_0.5_0.5_50_256_256_4_2_0.0001_1_1_2f5e7e78-d055-453b-b4a3-e51bd6ce3fae/qid_model.ckpt", "_timestamp": 1725351895.2472746, "_runtime": 164.3849196434021, "_step": 0, "_wandb": {"runtime": 162}}

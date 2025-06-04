@@ -1,0 +1,1 @@
+{"validauc": 0.8600684741936141, "validacc": 0.8499714127943627, "best_epoch": 19, "model_save_path": "saved_model/XES3G5M_simplekt_qid_saved_model_42_0_0.1_256_256_2_4_0.5_0.5_0.5_50_256_256_4_2_0.0001_1_1_9b06c287-1758-4e2d-8203-77e58f00a615/qid_model.ckpt", "_timestamp": 1725426415.5705166, "_runtime": 1910.1180665493011, "_step": 0, "_wandb": {"runtime": 1908}}

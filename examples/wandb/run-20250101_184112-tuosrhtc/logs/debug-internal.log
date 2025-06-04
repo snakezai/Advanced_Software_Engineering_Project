@@ -1,0 +1,327 @@
+2025-01-01 18:41:12,656 INFO    StreamThr :14132 [internal.py:wandb_internal():88] W&B internal server running at pid: 14132, started at: 2025-01-01 18:41:12.655331
+2025-01-01 18:41:12,658 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: status
+2025-01-01 18:41:12,660 INFO    WriterThread:14132 [datastore.py:open_for_write():87] open: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250101_184112-tuosrhtc\run-tuosrhtc.wandb
+2025-01-01 18:41:12,661 DEBUG   SenderThread:14132 [sender.py:send():379] send: header
+2025-01-01 18:41:12,663 DEBUG   SenderThread:14132 [sender.py:send():379] send: run
+2025-01-01 18:41:13,668 INFO    SenderThread:14132 [dir_watcher.py:__init__():211] watching files in: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250101_184112-tuosrhtc\files
+2025-01-01 18:41:13,668 INFO    SenderThread:14132 [sender.py:_start_run_threads():1191] run started: tuosrhtc with start time 1735728072.65633
+2025-01-01 18:41:13,675 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: check_version
+2025-01-01 18:41:13,675 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: check_version
+2025-01-01 18:41:16,770 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: run_start
+2025-01-01 18:41:16,781 DEBUG   HandlerThread:14132 [system_info.py:__init__():26] System info init
+2025-01-01 18:41:16,781 DEBUG   HandlerThread:14132 [system_info.py:__init__():41] System info init done
+2025-01-01 18:41:16,781 INFO    HandlerThread:14132 [system_monitor.py:start():194] Starting system monitor
+2025-01-01 18:41:16,781 INFO    SystemMonitor:14132 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-01-01 18:41:16,781 INFO    HandlerThread:14132 [system_monitor.py:probe():214] Collecting system info
+2025-01-01 18:41:16,783 INFO    SystemMonitor:14132 [interfaces.py:start():188] Started cpu monitoring
+2025-01-01 18:41:16,784 INFO    SystemMonitor:14132 [interfaces.py:start():188] Started disk monitoring
+2025-01-01 18:41:16,784 INFO    SystemMonitor:14132 [interfaces.py:start():188] Started gpu monitoring
+2025-01-01 18:41:16,784 INFO    SystemMonitor:14132 [interfaces.py:start():188] Started memory monitoring
+2025-01-01 18:41:16,787 INFO    SystemMonitor:14132 [interfaces.py:start():188] Started network monitoring
+2025-01-01 18:41:16,794 DEBUG   HandlerThread:14132 [system_info.py:probe():152] Probing system
+2025-01-01 18:41:16,796 DEBUG   HandlerThread:14132 [gitlib.py:_init_repo():56] git repository is invalid
+2025-01-01 18:41:16,796 DEBUG   HandlerThread:14132 [system_info.py:probe():200] Probing system done
+2025-01-01 18:41:16,796 DEBUG   HandlerThread:14132 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19041-SP0', 'python': '3.7.16', 'heartbeatAt': '2025-01-01T10:41:16.794775', 'startedAt': '2025-01-01T10:41:12.445383', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'E:\\zjh\\pykt-toolkit-main\\examples\\wandb_dkt_forget_train.py', 'codePathLocal': 'wandb_dkt_forget_train.py', 'codePath': 'wandb_dkt_forget_train.py', 'host': 'DESKTOP-CLCGSSC', 'username': 'IERI1', 'executable': 'D:\\anaconda\\envs\\MBHT\\python.exe', 'cpu_count': 24, 'cpu_count_logical': 32, 'cpu_freq': {'current': 3000.0, 'min': 0.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 3000.0, 'min': 0.0, 'max': 3000.0}], 'disk': {'/': {'total': 1862.9990234375, 'used': 1305.447265625}}, 'gpu': 'NVIDIA GeForce RTX 4090', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4090', 'memory_total': 25757220864}], 'memory': {'total': 63.813720703125}}
+2025-01-01 18:41:16,796 INFO    HandlerThread:14132 [system_monitor.py:probe():224] Finished collecting system info
+2025-01-01 18:41:16,796 INFO    HandlerThread:14132 [system_monitor.py:probe():227] Publishing system info
+2025-01-01 18:41:16,796 DEBUG   HandlerThread:14132 [system_info.py:_save_conda():210] Saving list of conda packages installed into the current environment
+2025-01-01 18:41:17,716 INFO    Thread-16 :14132 [dir_watcher.py:_on_file_created():271] file/dir created: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250101_184112-tuosrhtc\files\conda-environment.yaml
+2025-01-01 18:41:18,468 DEBUG   HandlerThread:14132 [system_info.py:_save_conda():224] Saving conda packages done
+2025-01-01 18:41:18,469 INFO    HandlerThread:14132 [system_monitor.py:probe():229] Finished publishing system info
+2025-01-01 18:41:18,473 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: status_report
+2025-01-01 18:41:18,474 DEBUG   SenderThread:14132 [sender.py:send():379] send: files
+2025-01-01 18:41:18,474 INFO    SenderThread:14132 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2025-01-01 18:41:18,538 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: python_packages
+2025-01-01 18:41:18,538 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: python_packages
+2025-01-01 18:41:18,538 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: stop_status
+2025-01-01 18:41:18,539 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:18,540 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: stop_status
+2025-01-01 18:41:18,719 INFO    Thread-16 :14132 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250101_184112-tuosrhtc\files\conda-environment.yaml
+2025-01-01 18:41:18,720 INFO    Thread-16 :14132 [dir_watcher.py:_on_file_created():271] file/dir created: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250101_184112-tuosrhtc\files\wandb-metadata.json
+2025-01-01 18:41:18,720 INFO    Thread-16 :14132 [dir_watcher.py:_on_file_created():271] file/dir created: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250101_184112-tuosrhtc\files\requirements.txt
+2025-01-01 18:41:19,131 DEBUG   SenderThread:14132 [sender.py:send():379] send: telemetry
+2025-01-01 18:41:19,504 INFO    wandb-upload_0:14132 [upload_job.py:push():130] Uploaded file C:\Users\IERI1\AppData\Local\Temp\tmptai8zir0wandb\08f0p0y4-wandb-metadata.json
+2025-01-01 18:41:19,544 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:19,734 INFO    Thread-16 :14132 [dir_watcher.py:_on_file_created():271] file/dir created: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250101_184112-tuosrhtc\files\output.log
+2025-01-01 18:41:20,586 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:21,632 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:22,640 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:22,950 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: status_report
+2025-01-01 18:41:23,646 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:24,637 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:25,649 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:26,655 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:27,668 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:28,100 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: status_report
+2025-01-01 18:41:28,682 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:29,687 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:30,689 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:31,692 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:32,702 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:33,556 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: stop_status
+2025-01-01 18:41:33,556 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: stop_status
+2025-01-01 18:41:33,715 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:33,808 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: status_report
+2025-01-01 18:41:34,718 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:35,732 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:36,733 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:37,737 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:38,740 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:39,168 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: status_report
+2025-01-01 18:41:39,740 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:40,754 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:41,756 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:42,762 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:43,777 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:44,636 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: status_report
+2025-01-01 18:41:44,778 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:44,971 INFO    Thread-16 :14132 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250101_184112-tuosrhtc\files\config.yaml
+2025-01-01 18:41:45,779 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:46,793 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:47,808 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:48,571 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: stop_status
+2025-01-01 18:41:48,572 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: stop_status
+2025-01-01 18:41:48,822 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:49,836 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:50,362 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: status_report
+2025-01-01 18:41:50,848 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:51,849 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:52,864 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:53,876 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:54,888 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:55,901 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:56,359 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: status_report
+2025-01-01 18:41:56,917 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:57,961 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:58,958 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:41:59,972 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:00,988 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:01,640 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: status_report
+2025-01-01 18:42:01,991 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:03,006 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:03,593 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: stop_status
+2025-01-01 18:42:03,593 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: stop_status
+2025-01-01 18:42:04,022 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:05,037 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:06,052 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:07,067 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:07,604 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: status_report
+2025-01-01 18:42:08,082 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:09,095 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:10,097 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:11,101 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:12,116 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:12,823 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: status_report
+2025-01-01 18:42:13,116 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:14,129 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:15,142 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:16,145 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:16,797 DEBUG   SystemMonitor:14132 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-01-01 18:42:16,797 DEBUG   SenderThread:14132 [sender.py:send():379] send: stats
+2025-01-01 18:42:17,163 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:18,159 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:18,601 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: stop_status
+2025-01-01 18:42:18,601 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: stop_status
+2025-01-01 18:42:18,842 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: status_report
+2025-01-01 18:42:19,174 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:20,184 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:21,198 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:22,213 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:23,228 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:23,978 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: status_report
+2025-01-01 18:42:24,240 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:25,239 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:26,252 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:27,266 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:28,280 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:29,296 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:29,755 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: status_report
+2025-01-01 18:42:30,310 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:31,313 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:32,318 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:33,325 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:33,612 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: stop_status
+2025-01-01 18:42:33,612 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: stop_status
+2025-01-01 18:42:34,328 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:34,914 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: status_report
+2025-01-01 18:42:35,330 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:36,332 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:37,336 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:38,365 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:39,383 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:40,385 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:40,768 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: status_report
+2025-01-01 18:42:41,391 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:42,406 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:43,420 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:44,421 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:45,436 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:45,902 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: status_report
+2025-01-01 18:42:46,438 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:46,803 DEBUG   SenderThread:14132 [sender.py:send():379] send: stats
+2025-01-01 18:42:47,440 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:48,452 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:48,611 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: stop_status
+2025-01-01 18:42:48,612 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: stop_status
+2025-01-01 18:42:49,463 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:50,479 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:51,483 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:51,673 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: status_report
+2025-01-01 18:42:52,496 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:53,510 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:54,511 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:55,516 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:56,521 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:56,809 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: status_report
+2025-01-01 18:42:57,507 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:58,514 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:42:59,518 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:43:00,518 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:43:01,533 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:43:01,883 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: status_report
+2025-01-01 18:43:02,548 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:43:03,560 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:43:03,624 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: stop_status
+2025-01-01 18:43:03,624 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: stop_status
+2025-01-01 18:43:04,512 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: partial_history
+2025-01-01 18:43:04,512 DEBUG   SenderThread:14132 [sender.py:send():379] send: history
+2025-01-01 18:43:04,513 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: summary_record
+2025-01-01 18:43:04,515 INFO    SenderThread:14132 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-01 18:43:04,515 DEBUG   SenderThread:14132 [sender.py:send():379] send: exit
+2025-01-01 18:43:04,515 INFO    SenderThread:14132 [sender.py:send_exit():586] handling exit code: 0
+2025-01-01 18:43:04,516 INFO    SenderThread:14132 [sender.py:send_exit():588] handling runtime: 107
+2025-01-01 18:43:04,517 INFO    SenderThread:14132 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-01 18:43:04,517 INFO    SenderThread:14132 [sender.py:send_exit():594] send defer
+2025-01-01 18:43:04,517 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: defer
+2025-01-01 18:43:04,517 INFO    HandlerThread:14132 [handler.py:handle_request_defer():184] handle defer: 0
+2025-01-01 18:43:04,517 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: defer
+2025-01-01 18:43:04,517 INFO    SenderThread:14132 [sender.py:send_request_defer():610] handle sender defer: 0
+2025-01-01 18:43:04,517 INFO    SenderThread:14132 [sender.py:transition_state():614] send defer: 1
+2025-01-01 18:43:04,517 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: defer
+2025-01-01 18:43:04,517 INFO    HandlerThread:14132 [handler.py:handle_request_defer():184] handle defer: 1
+2025-01-01 18:43:04,518 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: defer
+2025-01-01 18:43:04,518 INFO    SenderThread:14132 [sender.py:send_request_defer():610] handle sender defer: 1
+2025-01-01 18:43:04,518 INFO    SenderThread:14132 [sender.py:transition_state():614] send defer: 2
+2025-01-01 18:43:04,518 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: defer
+2025-01-01 18:43:04,518 INFO    HandlerThread:14132 [handler.py:handle_request_defer():184] handle defer: 2
+2025-01-01 18:43:04,518 INFO    HandlerThread:14132 [system_monitor.py:finish():203] Stopping system monitor
+2025-01-01 18:43:04,518 INFO    HandlerThread:14132 [interfaces.py:finish():200] Joined cpu monitor
+2025-01-01 18:43:04,518 INFO    HandlerThread:14132 [interfaces.py:finish():200] Joined disk monitor
+2025-01-01 18:43:04,518 DEBUG   SystemMonitor:14132 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-01-01 18:43:04,521 DEBUG   SystemMonitor:14132 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-01-01 18:43:04,535 INFO    HandlerThread:14132 [interfaces.py:finish():200] Joined gpu monitor
+2025-01-01 18:43:04,535 INFO    HandlerThread:14132 [interfaces.py:finish():200] Joined memory monitor
+2025-01-01 18:43:04,536 INFO    HandlerThread:14132 [interfaces.py:finish():200] Joined network monitor
+2025-01-01 18:43:04,536 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: defer
+2025-01-01 18:43:04,536 INFO    SenderThread:14132 [sender.py:send_request_defer():610] handle sender defer: 2
+2025-01-01 18:43:04,536 INFO    SenderThread:14132 [sender.py:transition_state():614] send defer: 3
+2025-01-01 18:43:04,536 DEBUG   SenderThread:14132 [sender.py:send():379] send: stats
+2025-01-01 18:43:04,536 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: defer
+2025-01-01 18:43:04,536 INFO    HandlerThread:14132 [handler.py:handle_request_defer():184] handle defer: 3
+2025-01-01 18:43:04,536 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: defer
+2025-01-01 18:43:04,536 INFO    SenderThread:14132 [sender.py:send_request_defer():610] handle sender defer: 3
+2025-01-01 18:43:04,536 INFO    SenderThread:14132 [sender.py:transition_state():614] send defer: 4
+2025-01-01 18:43:04,536 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: defer
+2025-01-01 18:43:04,536 INFO    HandlerThread:14132 [handler.py:handle_request_defer():184] handle defer: 4
+2025-01-01 18:43:04,536 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: defer
+2025-01-01 18:43:04,537 INFO    SenderThread:14132 [sender.py:send_request_defer():610] handle sender defer: 4
+2025-01-01 18:43:04,537 INFO    SenderThread:14132 [sender.py:transition_state():614] send defer: 5
+2025-01-01 18:43:04,537 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: defer
+2025-01-01 18:43:04,537 INFO    HandlerThread:14132 [handler.py:handle_request_defer():184] handle defer: 5
+2025-01-01 18:43:04,537 DEBUG   SenderThread:14132 [sender.py:send():379] send: summary
+2025-01-01 18:43:04,539 INFO    SenderThread:14132 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2025-01-01 18:43:04,539 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: defer
+2025-01-01 18:43:04,539 INFO    SenderThread:14132 [sender.py:send_request_defer():610] handle sender defer: 5
+2025-01-01 18:43:04,539 INFO    SenderThread:14132 [sender.py:transition_state():614] send defer: 6
+2025-01-01 18:43:04,539 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: defer
+2025-01-01 18:43:04,539 INFO    HandlerThread:14132 [handler.py:handle_request_defer():184] handle defer: 6
+2025-01-01 18:43:04,539 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: defer
+2025-01-01 18:43:04,539 INFO    SenderThread:14132 [sender.py:send_request_defer():610] handle sender defer: 6
+2025-01-01 18:43:04,539 INFO    SenderThread:14132 [sender.py:transition_state():614] send defer: 7
+2025-01-01 18:43:04,539 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: status_report
+2025-01-01 18:43:04,539 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: defer
+2025-01-01 18:43:04,539 INFO    HandlerThread:14132 [handler.py:handle_request_defer():184] handle defer: 7
+2025-01-01 18:43:04,539 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: defer
+2025-01-01 18:43:04,539 INFO    SenderThread:14132 [sender.py:send_request_defer():610] handle sender defer: 7
+2025-01-01 18:43:04,715 INFO    Thread-16 :14132 [dir_watcher.py:_on_file_created():271] file/dir created: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250101_184112-tuosrhtc\files\wandb-summary.json
+2025-01-01 18:43:05,526 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: poll_exit
+2025-01-01 18:43:05,687 INFO    SenderThread:14132 [sender.py:transition_state():614] send defer: 8
+2025-01-01 18:43:05,687 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: poll_exit
+2025-01-01 18:43:05,688 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: defer
+2025-01-01 18:43:05,688 INFO    HandlerThread:14132 [handler.py:handle_request_defer():184] handle defer: 8
+2025-01-01 18:43:05,688 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: defer
+2025-01-01 18:43:05,688 INFO    SenderThread:14132 [sender.py:send_request_defer():610] handle sender defer: 8
+2025-01-01 18:43:05,688 INFO    SenderThread:14132 [job_builder.py:build():440] Attempting to build job artifact
+2025-01-01 18:43:05,689 INFO    SenderThread:14132 [job_builder.py:_get_source_type():580] no source found
+2025-01-01 18:43:05,689 INFO    SenderThread:14132 [sender.py:transition_state():614] send defer: 9
+2025-01-01 18:43:05,689 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: defer
+2025-01-01 18:43:05,689 INFO    HandlerThread:14132 [handler.py:handle_request_defer():184] handle defer: 9
+2025-01-01 18:43:05,689 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: defer
+2025-01-01 18:43:05,689 INFO    SenderThread:14132 [sender.py:send_request_defer():610] handle sender defer: 9
+2025-01-01 18:43:05,689 INFO    SenderThread:14132 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-01-01 18:43:05,728 INFO    SenderThread:14132 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250101_184112-tuosrhtc\files\output.log
+2025-01-01 18:43:05,729 INFO    SenderThread:14132 [dir_watcher.py:finish():388] scan: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250101_184112-tuosrhtc\files
+2025-01-01 18:43:05,729 INFO    SenderThread:14132 [dir_watcher.py:finish():402] scan save: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250101_184112-tuosrhtc\files\config.yaml config.yaml
+2025-01-01 18:43:05,729 INFO    SenderThread:14132 [dir_watcher.py:finish():402] scan save: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250101_184112-tuosrhtc\files\conda-environment.yaml conda-environment.yaml
+2025-01-01 18:43:05,729 INFO    SenderThread:14132 [dir_watcher.py:finish():402] scan save: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250101_184112-tuosrhtc\files\wandb-metadata.json wandb-metadata.json
+2025-01-01 18:43:05,729 INFO    SenderThread:14132 [dir_watcher.py:finish():402] scan save: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250101_184112-tuosrhtc\files\requirements.txt requirements.txt
+2025-01-01 18:43:05,729 INFO    SenderThread:14132 [dir_watcher.py:finish():402] scan save: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250101_184112-tuosrhtc\files\output.log output.log
+2025-01-01 18:43:05,729 INFO    SenderThread:14132 [dir_watcher.py:finish():402] scan save: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250101_184112-tuosrhtc\files\wandb-summary.json wandb-summary.json
+2025-01-01 18:43:05,729 INFO    SenderThread:14132 [sender.py:transition_state():614] send defer: 10
+2025-01-01 18:43:05,730 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: defer
+2025-01-01 18:43:05,730 INFO    HandlerThread:14132 [handler.py:handle_request_defer():184] handle defer: 10
+2025-01-01 18:43:05,731 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: defer
+2025-01-01 18:43:05,731 INFO    SenderThread:14132 [sender.py:send_request_defer():610] handle sender defer: 10
+2025-01-01 18:43:05,731 INFO    SenderThread:14132 [file_pusher.py:finish():169] shutting down file pusher
+2025-01-01 18:43:06,324 INFO    wandb-upload_0:14132 [upload_job.py:push():130] Uploaded file E:\zjh\pykt-toolkit-main\examples\wandb\run-20250101_184112-tuosrhtc\files\config.yaml
+2025-01-01 18:43:06,511 INFO    wandb-upload_1:14132 [upload_job.py:push():130] Uploaded file E:\zjh\pykt-toolkit-main\examples\wandb\run-20250101_184112-tuosrhtc\files\conda-environment.yaml
+2025-01-01 18:43:06,540 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: poll_exit
+2025-01-01 18:43:06,540 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: poll_exit
+2025-01-01 18:43:06,877 INFO    wandb-upload_4:14132 [upload_job.py:push():130] Uploaded file E:\zjh\pykt-toolkit-main\examples\wandb\run-20250101_184112-tuosrhtc\files\wandb-summary.json
+2025-01-01 18:43:07,023 INFO    wandb-upload_3:14132 [upload_job.py:push():130] Uploaded file E:\zjh\pykt-toolkit-main\examples\wandb\run-20250101_184112-tuosrhtc\files\output.log
+2025-01-01 18:43:07,121 INFO    wandb-upload_2:14132 [upload_job.py:push():130] Uploaded file E:\zjh\pykt-toolkit-main\examples\wandb\run-20250101_184112-tuosrhtc\files\requirements.txt
+2025-01-01 18:43:07,332 INFO    Thread-15 :14132 [sender.py:transition_state():614] send defer: 11
+2025-01-01 18:43:07,332 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: defer
+2025-01-01 18:43:07,332 INFO    HandlerThread:14132 [handler.py:handle_request_defer():184] handle defer: 11
+2025-01-01 18:43:07,333 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: defer
+2025-01-01 18:43:07,333 INFO    SenderThread:14132 [sender.py:send_request_defer():610] handle sender defer: 11
+2025-01-01 18:43:07,333 INFO    SenderThread:14132 [file_pusher.py:join():175] waiting for file pusher
+2025-01-01 18:43:07,334 INFO    SenderThread:14132 [sender.py:transition_state():614] send defer: 12
+2025-01-01 18:43:07,334 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: defer
+2025-01-01 18:43:07,334 INFO    HandlerThread:14132 [handler.py:handle_request_defer():184] handle defer: 12
+2025-01-01 18:43:07,334 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: defer
+2025-01-01 18:43:07,334 INFO    SenderThread:14132 [sender.py:send_request_defer():610] handle sender defer: 12
+2025-01-01 18:43:07,334 INFO    SenderThread:14132 [file_stream.py:finish():601] file stream finish called
+2025-01-01 18:43:07,552 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: poll_exit
+2025-01-01 18:43:08,040 INFO    SenderThread:14132 [file_stream.py:finish():605] file stream finish is done
+2025-01-01 18:43:08,040 INFO    SenderThread:14132 [sender.py:transition_state():614] send defer: 13
+2025-01-01 18:43:08,040 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: poll_exit
+2025-01-01 18:43:08,040 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: defer
+2025-01-01 18:43:08,041 INFO    HandlerThread:14132 [handler.py:handle_request_defer():184] handle defer: 13
+2025-01-01 18:43:08,041 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: defer
+2025-01-01 18:43:08,041 INFO    SenderThread:14132 [sender.py:send_request_defer():610] handle sender defer: 13
+2025-01-01 18:43:08,041 INFO    SenderThread:14132 [sender.py:transition_state():614] send defer: 14
+2025-01-01 18:43:08,041 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: defer
+2025-01-01 18:43:08,041 DEBUG   SenderThread:14132 [sender.py:send():379] send: final
+2025-01-01 18:43:08,041 INFO    HandlerThread:14132 [handler.py:handle_request_defer():184] handle defer: 14
+2025-01-01 18:43:08,041 DEBUG   SenderThread:14132 [sender.py:send():379] send: footer
+2025-01-01 18:43:08,042 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: defer
+2025-01-01 18:43:08,042 INFO    SenderThread:14132 [sender.py:send_request_defer():610] handle sender defer: 14
+2025-01-01 18:43:08,042 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: poll_exit
+2025-01-01 18:43:08,042 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: server_info
+2025-01-01 18:43:08,042 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: poll_exit
+2025-01-01 18:43:08,042 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: poll_exit
+2025-01-01 18:43:08,043 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: get_summary
+2025-01-01 18:43:08,043 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: server_info
+2025-01-01 18:43:08,043 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: sampled_history
+2025-01-01 18:43:08,044 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-01 18:43:08,277 DEBUG   SenderThread:14132 [sender.py:send_request():406] send_request: poll_exit
+2025-01-01 18:43:08,277 INFO    MainThread:14132 [wandb_run.py:_footer_history_summary_info():4016] rendering history
+2025-01-01 18:43:08,278 INFO    MainThread:14132 [wandb_run.py:_footer_history_summary_info():4048] rendering summary
+2025-01-01 18:43:08,278 INFO    MainThread:14132 [wandb_run.py:_footer_sync_info():3975] logging synced files
+2025-01-01 18:43:08,278 DEBUG   HandlerThread:14132 [handler.py:handle_request():158] handle_request: shutdown
+2025-01-01 18:43:08,278 INFO    HandlerThread:14132 [handler.py:finish():882] shutting down handler
+2025-01-01 18:43:09,051 INFO    WriterThread:14132 [datastore.py:close():296] close: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250101_184112-tuosrhtc\run-tuosrhtc.wandb
+2025-01-01 18:43:09,284 INFO    SenderThread:14132 [sender.py:finish():1615] shutting down sender
+2025-01-01 18:43:09,284 INFO    SenderThread:14132 [file_pusher.py:finish():169] shutting down file pusher
+2025-01-01 18:43:09,284 INFO    SenderThread:14132 [file_pusher.py:join():175] waiting for file pusher

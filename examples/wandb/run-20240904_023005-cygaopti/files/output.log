@@ -1,0 +1,19 @@
+model_name is dkt, dataset_name is nips_task34
+Start preprocessing ../data/nips_task34/test_sequences.csv fold: _-1...
+interaction_num: 276127
+file path: ../data/nips_task34/test_sequences.csv, qlen: 1855, clen: 1855, rlen: 1855
+Start preprocessing ../data/nips_task34/test_window_sequences.csv fold: _-1...
+interaction_num: 276137
+file path: ../data/nips_task34/test_window_sequences.csv, qlen: 116155, clen: 116155, rlen: 116155
+Start preprocessing ../data/nips_task34/test_question_sequences.csv fold: _-1...
+interaction_num: 275111
+file path: ../data/nips_task34/test_question_sequences.csv, qlen: 8435, clen: 8435, rlen: 8435
+Start preprocessing ../data/nips_task34/test_question_window_sequences.csv fold: _-1...
+interaction_num: 275153
+file path: ../data/nips_task34/test_question_window_sequences.csv, qlen: 119994, clen: 119994, rlen: 119994
+has test_question_file!
+Start predicting model: dkt, embtype: qid, save_dir: saved_model/nips_task34_dkt_qid_saved_model_42_0_0.2_200_0.001_1_1_72cfd27f-0d66-457c-8831-b3bad69132e5, dataset_name: nips_task34
+model_config: {'dropout': 0.2, 'emb_size': 200}
+data_config: {'dpath': '../data/nips_task34', 'num_q': 948, 'num_c': 57, 'input_type': ['questions', 'concepts'], 'max_concepts': 2, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv', 'dataset_name': 'nips_task34'}
+ts.shape: (274272,), ps.shape: (274272,)
+testauc: 0.7714616809124507, testacc: 0.7045268930113172

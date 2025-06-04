@@ -1,0 +1,1 @@
+{"validauc": 0.7670795270307538, "validacc": 0.7005878902664535, "best_epoch": 17, "model_save_path": "saved_model\\nips_task34_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_f790104a-fc7b-494e-9e24-160ad45b1fd3\\qid_model.ckpt", "_timestamp": 1735976252.5682743, "_runtime": 111.27594518661499, "_step": 0, "_wandb": {"runtime": 110}}

@@ -1,0 +1,1 @@
+{"validauc": 0.9241672015460445, "validacc": 0.8681494986326345, "best_epoch": 19, "model_save_path": "saved_model\\algebra2005_simplekt_qid_saved_model_42_0_0.1_256_256_2_4_0.5_0.5_0.5_50_256_256_4_2_0.0001_1_1_17fd1239-cd4e-4092-8490-a9f2f9154b9b\\qid_model.ckpt", "_timestamp": 1741918134.023402, "_runtime": 199.65389895439148, "_step": 0, "_wandb": {"runtime": 194}}

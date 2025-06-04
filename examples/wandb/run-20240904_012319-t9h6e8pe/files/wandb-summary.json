@@ -1,0 +1,1 @@
+{"validauc": 0.8964333690566264, "validacc": 0.8311211187485186, "best_epoch": 18, "model_save_path": "saved_model/assist2009_dkt_qid_saved_model_42_0_0.2_200_0.001_1_1_546331ff-a139-4721-b383-15c6d9a0d330/qid_model.ckpt", "_timestamp": 1725413069.0771308, "_runtime": 69.89386177062988, "_step": 0, "_wandb": {"runtime": 68}}

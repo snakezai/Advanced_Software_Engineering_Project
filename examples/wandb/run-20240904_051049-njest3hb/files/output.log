@@ -1,0 +1,45 @@
+model_name is simplekt, dataset_name is XES3G5M
+Read data from processed file: ../data/XES3G5M/test_sequences.csv_-1.pkl
+file path: ../data/XES3G5M/test_sequences.csv, qlen: 8301, clen: 8301, rlen: 8301
+Start predicting model: simplekt, embtype: qid, save_dir: saved_model/XES3G5M_simplekt_qid_saved_model_42_0_0.1_256_256_2_4_0.5_0.5_0.5_50_256_256_4_2_0.0001_1_1_9b06c287-1758-4e2d-8203-77e58f00a615, dataset_name: XES3G5M
+model_config: {'dropout': 0.1, 'final_fc_dim': 256, 'final_fc_dim2': 256, 'num_layers': 2, 'nheads': 4, 'loss1': 0.5, 'loss2': 0.5, 'loss3': 0.5, 'start': 50, 'd_model': 256, 'd_ff': 256, 'num_attn_heads': 4, 'n_blocks': 2}
+data_config: {'dpath': '../data/XES3G5M', 'num_q': 7652, 'num_c': 865, 'input_type': ['questions', 'concepts'], 'max_concepts': 7, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv', 'dataset_name': 'XES3G5M'}
+model_name: simplekt, emb_type: qid
+/home/zhjy/lizz/anaconda3/envs/pykt/lib/python3.11/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/home/zhjy/lizz/anaconda3/envs/pykt/lib/python3.11/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/zhjy/lizz/anaconda3/envs/pykt/lib/python3.11/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/home/zhjy/lizz/anaconda3/envs/pykt/lib/python3.11/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/zhjy/lizz/anaconda3/envs/pykt/lib/python3.11/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/home/zhjy/lizz/anaconda3/envs/pykt/lib/python3.11/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/zhjy/lizz/anaconda3/envs/pykt/lib/python3.11/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/home/zhjy/lizz/anaconda3/envs/pykt/lib/python3.11/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/zhjy/lizz/anaconda3/envs/pykt/lib/python3.11/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/home/zhjy/lizz/anaconda3/envs/pykt/lib/python3.11/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/zhjy/lizz/anaconda3/envs/pykt/lib/python3.11/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/home/zhjy/lizz/anaconda3/envs/pykt/lib/python3.11/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/zhjy/lizz/anaconda3/envs/pykt/lib/python3.11/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/home/zhjy/lizz/anaconda3/envs/pykt/lib/python3.11/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/zhjy/lizz/anaconda3/envs/pykt/lib/python3.11/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/home/zhjy/lizz/anaconda3/envs/pykt/lib/python3.11/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/zhjy/lizz/anaconda3/envs/pykt/lib/python3.11/site-packages/numpy/lib/function_base.py:520: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis, **keepdims_kw)
+/home/zhjy/lizz/anaconda3/envs/pykt/lib/python3.11/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+ts.shape: (1266008,), ps.shape: (1266008,)
+testauc: 0.8610840863124276, testacc: 0.8503903608823957

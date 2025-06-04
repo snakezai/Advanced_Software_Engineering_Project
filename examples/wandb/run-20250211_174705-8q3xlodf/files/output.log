@@ -1,0 +1,194 @@
+2025-02-11 17:47:10 - main - said: load config files.
+Start init data
+algebra2005 dkt_forget {'assist2015': {'dpath': '../data/assist2015', 'num_q': 0, 'num_c': 100, 'input_type': ['concepts'], 'max_concepts': 1, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'algebra2005': {'dpath': '../data/algebra2005', 'num_q': 173113, 'num_c': 112, 'input_type': ['questions', 'concepts'], 'max_concepts': 7, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'assist2009': {'dpath': '../data/assist2009', 'num_q': 17737, 'num_c': 123, 'input_type': ['questions', 'concepts'], 'max_concepts': 4, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'slepemapy': {'dpath': '../data/slepemapy', 'num_q': 2913, 'num_c': 1458, 'input_type': ['questions', 'concepts'], 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv'}, 'assist2017': {'dpath': '../data/assist2017', 'num_q': 3162, 'num_c': 102, 'input_type': ['questions', 'concepts'], 'min_seq_len': 3, 'maxlen': 500, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv'}, 'assist2012': {'dpath': '../data/assist2012', 'num_q': 53070, 'num_c': 265, 'input_type': ['questions', 'concepts'], 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv'}, 'statics2011': {'dpath': '../data/statics2011', 'num_q': 0, 'num_c': 1223, 'input_type': ['concepts'], 'max_concepts': 1, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'junyi2015': {'dpath': '../data/junyi2015', 'num_q': 721, 'num_c': 39, 'input_type': ['questions', 'concepts'], 'max_concepts': 1, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv'}, 'bridge2algebra2006': {'dpath': '../data/bridge2algebra2006', 'num_q': 129263, 'num_c': 493, 'input_type': ['questions', 'concepts'], 'max_concepts': 5, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'ednet': {'dpath': '../data/ednet', 'num_q': 11901, 'num_c': 188, 'input_type': ['questions', 'concepts'], 'max_concepts': 7, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'nips_task34': {'dpath': '../data/nips_task34', 'num_q': 948, 'num_c': 57, 'input_type': ['questions', 'concepts'], 'max_concepts': 2, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'poj': {'dpath': '../data/poj', 'num_q': 0, 'num_c': 2748, 'input_type': ['concepts'], 'max_concepts': 1, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'peiyou': {'dpath': '../data/peiyou', 'num_q': 7652, 'num_c': 865, 'input_type': ['questions', 'concepts'], 'max_concepts': 6, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'train_valid_original_file': 'train_valid.csv', 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'ednet5w': {'dpath': '../data/ednet5w', 'num_q': 12235, 'num_c': 188, 'input_type': ['questions', 'concepts'], 'max_concepts': 7, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'XES3G5M': {'dpath': '../data/XES3G5M', 'num_q': 7652, 'num_c': 865, 'input_type': ['questions', 'concepts'], 'max_concepts': 7, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test_half_h.csv', 'test_file': 'test_sequences_half_h.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}, 'MOOCCubex_computer': {'dpath': '../data/MOOCCubex_computer', 'num_q': 17447, 'num_c': 443, 'input_type': ['questions', 'concepts'], 'max_concepts': 4, 'min_seq_len': 3, 'maxlen': 200, 'emb_path': '', 'train_valid_original_file': 'train_valid.csv', 'train_valid_file': 'train_valid_sequences.csv', 'folds': [0, 1, 2, 3, 4], 'test_original_file': 'test.csv', 'test_file': 'test_sequences.csv', 'test_window_file': 'test_window_sequences.csv', 'test_question_file': 'test_question_sequences.csv', 'test_question_window_file': 'test_question_window_sequences.csv', 'train_valid_original_file_quelevel': 'train_valid_quelevel.csv', 'train_valid_file_quelevel': 'train_valid_sequences_quelevel.csv', 'test_file_quelevel': 'test_sequences_quelevel.csv', 'test_window_file_quelevel': 'test_window_sequences_quelevel.csv', 'test_original_file_quelevel': 'test_quelevel.csv'}} 0 256
+2025-02-11 17:47:10 - main - said: init_dataset
+Start preprocessing ../data/algebra2005\train_valid_sequences.csv fold: _0...
+file path: ../data/algebra2005\train_valid_sequences.csv, qlen: 870, clen: 870, rlen: 870,                 max_rgap: 18, max_sgap: 18, max_pcount: 8
+Start preprocessing ../data/algebra2005\train_valid_sequences.csv fold: _1_2_3_4...
+file path: ../data/algebra2005\train_valid_sequences.csv, qlen: 3110, clen: 3110, rlen: 3110,                 max_rgap: 19, max_sgap: 19, max_pcount: 8
+Start preprocessing ../data/algebra2005\test_sequences.csv fold: _-1...
+file path: ../data/algebra2005\test_sequences.csv, qlen: 732, clen: 732, rlen: 732,                 max_rgap: 18, max_sgap: 18, max_pcount: 8
+params: {'dataset_name': 'algebra2005', 'model_name': 'dkt_forget', 'emb_type': 'qid', 'save_dir': 'saved_model', 'seed': 42, 'fold': 0, 'dropout': 0.2, 'emb_size': 200, 'learning_rate': 0.001, 'use_wandb': 1, 'add_uuid': 1}, params_str: algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1
+Start training model: dkt_forget, embtype: qid, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4, dataset_name: algebra2005
+model_config: {'dropout': 0.2, 'emb_size': 200, 'learning_rate': 0.001, 'use_wandb': 1, 'add_uuid': 1}
+train_config: {'batch_size': 256, 'num_epochs': 200, 'optimizer': 'adam', 'seq_len': 200}
+2025-02-11 17:47:13 - main - said: init_model
+model_name:dkt_forget
+model is DKTForget(
+  (interaction_emb): Embedding(224, 200)
+  (c_integration): CIntegration(
+    (cemb): Linear(in_features=49, out_features=200, bias=False)
+  )
+  (lstm_layer): LSTM(249, 200, batch_first=True)
+  (dropout_layer): Dropout(p=0.2, inplace=False)
+  (out_layer): Linear(in_features=249, out_features=112, bias=True)
+)
+2025-02-11 17:47:14 - main - said: train model
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 1, validauc: 0.6741, validacc: 0.7119, best epoch: 1, best auc: 0.6741, train loss: 0.6798212467052374, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 2, validauc: 0.6985, validacc: 0.7261, best epoch: 2, best auc: 0.6985, train loss: 0.6092772969114149, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 3, validauc: 0.7157, validacc: 0.7288, best epoch: 3, best auc: 0.7157, train loss: 0.5466565273769302, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 4, validauc: 0.7321, validacc: 0.7356, best epoch: 4, best auc: 0.7321, train loss: 0.5244046749086331, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 5, validauc: 0.7389, validacc: 0.7375, best epoch: 5, best auc: 0.7389, train loss: 0.5173485741342289, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 6, validauc: 0.743, validacc: 0.74, best epoch: 6, best auc: 0.743, train loss: 0.512618179058627, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 7, validauc: 0.7472, validacc: 0.7423, best epoch: 7, best auc: 0.7472, train loss: 0.5087247197400655, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 8, validauc: 0.7541, validacc: 0.7454, best epoch: 8, best auc: 0.7541, train loss: 0.504567116670557, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 9, validauc: 0.7664, validacc: 0.7524, best epoch: 9, best auc: 0.7664, train loss: 0.49773673648637357, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 10, validauc: 0.7886, validacc: 0.7782, best epoch: 10, best auc: 0.7886, train loss: 0.48482094589236946, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 11, validauc: 0.8233, validacc: 0.8019, best epoch: 11, best auc: 0.8233, train loss: 0.4610124324778292, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 12, validauc: 0.8605, validacc: 0.8208, best epoch: 12, best auc: 0.8605, train loss: 0.4252649462221119, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 13, validauc: 0.8799, validacc: 0.8369, best epoch: 13, best auc: 0.8799, train loss: 0.38729747525783875, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 14, validauc: 0.8877, validacc: 0.8438, best epoch: 14, best auc: 0.8877, train loss: 0.3609601855804048, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 15, validauc: 0.8926, validacc: 0.8463, best epoch: 15, best auc: 0.8926, train loss: 0.34534494831494356, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 16, validauc: 0.8967, validacc: 0.8477, best epoch: 16, best auc: 0.8967, train loss: 0.33512652230826667, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 17, validauc: 0.9001, validacc: 0.8494, best epoch: 17, best auc: 0.9001, train loss: 0.32748081975778504, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 18, validauc: 0.9031, validacc: 0.8514, best epoch: 18, best auc: 0.9031, train loss: 0.3215772568202613, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 19, validauc: 0.9053, validacc: 0.8529, best epoch: 19, best auc: 0.9053, train loss: 0.3165950506174363, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 20, validauc: 0.9072, validacc: 0.854, best epoch: 20, best auc: 0.9072, train loss: 0.3124987499097752, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 21, validauc: 0.9088, validacc: 0.8555, best epoch: 21, best auc: 0.9088, train loss: 0.309061801107621, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 22, validauc: 0.9101, validacc: 0.8565, best epoch: 22, best auc: 0.9101, train loss: 0.30595941756050027, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 23, validauc: 0.9112, validacc: 0.857, best epoch: 23, best auc: 0.9112, train loss: 0.303426821022588, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 24, validauc: 0.9123, validacc: 0.8578, best epoch: 24, best auc: 0.9123, train loss: 0.3007782967300399, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 25, validauc: 0.9123, validacc: 0.8578, best epoch: 24, best auc: 0.9123, train loss: 0.2986519564147695, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 26, validauc: 0.9139, validacc: 0.859, best epoch: 26, best auc: 0.9139, train loss: 0.2967979245233183, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 27, validauc: 0.9139, validacc: 0.859, best epoch: 26, best auc: 0.9139, train loss: 0.2948454612655063, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 28, validauc: 0.9153, validacc: 0.8597, best epoch: 28, best auc: 0.9153, train loss: 0.2929662615488194, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 29, validauc: 0.9153, validacc: 0.8597, best epoch: 28, best auc: 0.9153, train loss: 0.29173196714276006, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 30, validauc: 0.9164, validacc: 0.8605, best epoch: 30, best auc: 0.9164, train loss: 0.28996478155622346, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 31, validauc: 0.9164, validacc: 0.8605, best epoch: 30, best auc: 0.9164, train loss: 0.28825758490853404, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 32, validauc: 0.9164, validacc: 0.8605, best epoch: 30, best auc: 0.9164, train loss: 0.28695190253281944, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 33, validauc: 0.9177, validacc: 0.862, best epoch: 33, best auc: 0.9177, train loss: 0.2856364071717213, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 34, validauc: 0.9177, validacc: 0.862, best epoch: 33, best auc: 0.9177, train loss: 0.28415617985415953, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 35, validauc: 0.9177, validacc: 0.862, best epoch: 33, best auc: 0.9177, train loss: 0.2828655367268851, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 36, validauc: 0.9177, validacc: 0.862, best epoch: 33, best auc: 0.9177, train loss: 0.28165920667963473, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 37, validauc: 0.9189, validacc: 0.8629, best epoch: 37, best auc: 0.9189, train loss: 0.2805180296778095, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 38, validauc: 0.9189, validacc: 0.8629, best epoch: 37, best auc: 0.9189, train loss: 0.2792533011702009, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 39, validauc: 0.9189, validacc: 0.8629, best epoch: 37, best auc: 0.9189, train loss: 0.2781631239817925, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 40, validauc: 0.9189, validacc: 0.8629, best epoch: 37, best auc: 0.9189, train loss: 0.27725686529132393, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 41, validauc: 0.9189, validacc: 0.8629, best epoch: 37, best auc: 0.9189, train loss: 0.27622670053861476, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 42, validauc: 0.9189, validacc: 0.8629, best epoch: 37, best auc: 0.9189, train loss: 0.2757314040116151, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 43, validauc: 0.9189, validacc: 0.8629, best epoch: 37, best auc: 0.9189, train loss: 0.27469610093728053, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 44, validauc: 0.9189, validacc: 0.8629, best epoch: 37, best auc: 0.9189, train loss: 0.2732249264654548, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 45, validauc: 0.92, validacc: 0.8636, best epoch: 45, best auc: 0.92, train loss: 0.27231398004057805, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 46, validauc: 0.92, validacc: 0.8636, best epoch: 45, best auc: 0.92, train loss: 0.271376751319989, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 47, validauc: 0.92, validacc: 0.8636, best epoch: 45, best auc: 0.92, train loss: 0.2707348589273098, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 48, validauc: 0.92, validacc: 0.8636, best epoch: 45, best auc: 0.92, train loss: 0.27038099405546434, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 49, validauc: 0.92, validacc: 0.8636, best epoch: 45, best auc: 0.92, train loss: 0.2695009660963147, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 50, validauc: 0.92, validacc: 0.8636, best epoch: 45, best auc: 0.92, train loss: 0.2683874149239418, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 51, validauc: 0.92, validacc: 0.8636, best epoch: 45, best auc: 0.92, train loss: 0.267516838888345, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 52, validauc: 0.92, validacc: 0.8636, best epoch: 45, best auc: 0.92, train loss: 0.266457740195077, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 53, validauc: 0.92, validacc: 0.8636, best epoch: 45, best auc: 0.92, train loss: 0.2652848976357025, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 54, validauc: 0.92, validacc: 0.8636, best epoch: 45, best auc: 0.92, train loss: 0.26405251365403626, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+ts.shape: (164550,), ps.shape: (164550,)
+Epoch: 55, validauc: 0.92, validacc: 0.8636, best epoch: 45, best auc: 0.92, train loss: 0.26332055343631705, emb_type: qid, model: dkt_forget, save_dir: saved_model\algebra2005_dkt_forget_qid_saved_model_42_0_0.2_200_0.001_1_1_c0cc6389-758d-49a7-bb74-af498d79efe4
+            testauc: -1, testacc: -1, window_testauc: -1, window_testacc: -1
+fold	modelname	embtype	testauc	testacc	window_testauc	window_testacc	validauc	validacc	best_epoch
+0	dkt_forget	qid	-1	-1	-1	-1	0.919969067330265	0.8636037678517168	45
+end:2025-02-11 17:49:05.789741

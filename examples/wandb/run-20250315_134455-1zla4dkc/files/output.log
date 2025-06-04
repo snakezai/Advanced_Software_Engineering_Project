@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "E:\zjh\pykt-toolkit-main\examples\wandb_akt_train.py", line 27, in <module>
+    main(params)
+  File "E:\zjh\pykt-toolkit-main\examples\wandb_train.py", line 67, in main
+    if 'maxlen' in data_config[dataset_name]:#prefer to use the maxlen in data config
+KeyError: 'nips_taks34'
+2025-03-15 13:45:04 - main - said: load config files.

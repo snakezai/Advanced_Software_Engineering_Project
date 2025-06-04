@@ -1,0 +1,223 @@
+2025-03-13 17:27:28,644 INFO    StreamThr :13124 [internal.py:wandb_internal():86] W&B internal server running at pid: 13124, started at: 2025-03-13 17:27:28.644864
+2025-03-13 17:27:28,645 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: status
+2025-03-13 17:27:28,656 INFO    WriterThread:13124 [datastore.py:open_for_write():85] open: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250313_172728-f2h8kcgg\run-f2h8kcgg.wandb
+2025-03-13 17:27:28,657 DEBUG   SenderThread:13124 [sender.py:send():379] send: header
+2025-03-13 17:27:28,658 DEBUG   SenderThread:13124 [sender.py:send():379] send: run
+2025-03-13 17:27:28,661 DEBUG   SenderThread:13124 [gitlib.py:_init_repo():53] git repository is invalid
+2025-03-13 17:27:29,717 INFO    SenderThread:13124 [dir_watcher.py:__init__():211] watching files in: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250313_172728-f2h8kcgg\files
+2025-03-13 17:27:29,717 INFO    SenderThread:13124 [sender.py:_start_run_threads():1122] run started: f2h8kcgg with start time 1741858048.65481
+2025-03-13 17:27:29,717 DEBUG   SenderThread:13124 [sender.py:send_request():406] send_request: summary_record
+2025-03-13 17:27:29,719 INFO    SenderThread:13124 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2025-03-13 17:27:29,722 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: check_version
+2025-03-13 17:27:29,722 DEBUG   SenderThread:13124 [sender.py:send_request():406] send_request: check_version
+2025-03-13 17:27:30,721 INFO    Thread-16 :13124 [dir_watcher.py:_on_file_created():272] file/dir created: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250313_172728-f2h8kcgg\files\wandb-summary.json
+2025-03-13 17:27:34,728 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: status_report
+2025-03-13 17:27:34,735 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: run_start
+2025-03-13 17:27:34,759 DEBUG   HandlerThread:13124 [system_info.py:__init__():31] System info init
+2025-03-13 17:27:34,759 DEBUG   HandlerThread:13124 [system_info.py:__init__():46] System info init done
+2025-03-13 17:27:34,759 INFO    HandlerThread:13124 [system_monitor.py:start():181] Starting system monitor
+2025-03-13 17:27:34,760 INFO    SystemMonitor:13124 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2025-03-13 17:27:34,760 INFO    HandlerThread:13124 [system_monitor.py:probe():201] Collecting system info
+2025-03-13 17:27:34,763 INFO    SystemMonitor:13124 [interfaces.py:start():190] Started cpu monitoring
+2025-03-13 17:27:34,764 INFO    SystemMonitor:13124 [interfaces.py:start():190] Started disk monitoring
+2025-03-13 17:27:34,764 INFO    SystemMonitor:13124 [interfaces.py:start():190] Started gpu monitoring
+2025-03-13 17:27:34,765 INFO    SystemMonitor:13124 [interfaces.py:start():190] Started memory monitoring
+2025-03-13 17:27:34,769 INFO    SystemMonitor:13124 [interfaces.py:start():190] Started network monitoring
+2025-03-13 17:27:34,776 DEBUG   HandlerThread:13124 [system_info.py:probe():195] Probing system
+2025-03-13 17:27:34,777 DEBUG   HandlerThread:13124 [gitlib.py:_init_repo():53] git repository is invalid
+2025-03-13 17:27:34,777 DEBUG   HandlerThread:13124 [system_info.py:probe():240] Probing system done
+2025-03-13 17:27:34,777 DEBUG   HandlerThread:13124 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.8.17', 'heartbeatAt': '2025-03-13T09:27:34.776058', 'startedAt': '2025-03-13T09:27:28.379058', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'E:\\zjh\\pykt-toolkit-main\\examples\\wandb_simplekt_train.py', 'codePath': 'wandb_simplekt_train.py', 'host': 'DESKTOP-CLCGSSC', 'username': 'IERI1', 'executable': 'D:\\anaconda\\envs\\pyKT\\python.exe', 'cpu_count': 24, 'cpu_count_logical': 32, 'cpu_freq': {'current': 3000.0, 'min': 0.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 3000.0, 'min': 0.0, 'max': 3000.0}], 'disk': {'total': 1862.9990234375, 'used': 1838.00341796875}, 'gpu': 'NVIDIA GeForce RTX 4090', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4090', 'memory_total': 25757220864}], 'memory': {'total': 63.813720703125}}
+2025-03-13 17:27:34,777 INFO    HandlerThread:13124 [system_monitor.py:probe():211] Finished collecting system info
+2025-03-13 17:27:34,777 INFO    HandlerThread:13124 [system_monitor.py:probe():214] Publishing system info
+2025-03-13 17:27:34,777 DEBUG   HandlerThread:13124 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2025-03-13 17:27:34,780 DEBUG   HandlerThread:13124 [system_info.py:_save_pip():67] Saving pip packages done
+2025-03-13 17:27:34,780 DEBUG   HandlerThread:13124 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2025-03-13 17:27:35,745 INFO    Thread-16 :13124 [dir_watcher.py:_on_file_created():272] file/dir created: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250313_172728-f2h8kcgg\files\requirements.txt
+2025-03-13 17:27:35,746 INFO    Thread-16 :13124 [dir_watcher.py:_on_file_created():272] file/dir created: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250313_172728-f2h8kcgg\files\conda-environment.yaml
+2025-03-13 17:27:36,874 DEBUG   HandlerThread:13124 [system_info.py:_save_conda():86] Saving conda packages done
+2025-03-13 17:27:36,876 INFO    HandlerThread:13124 [system_monitor.py:probe():216] Finished publishing system info
+2025-03-13 17:27:36,887 DEBUG   SenderThread:13124 [sender.py:send():379] send: files
+2025-03-13 17:27:36,887 INFO    SenderThread:13124 [sender.py:_save_file():1376] saving file wandb-metadata.json with policy now
+2025-03-13 17:27:36,891 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: stop_status
+2025-03-13 17:27:36,891 DEBUG   SenderThread:13124 [sender.py:send_request():406] send_request: stop_status
+2025-03-13 17:27:37,227 DEBUG   SenderThread:13124 [sender.py:send():379] send: telemetry
+2025-03-13 17:27:37,228 DEBUG   SenderThread:13124 [sender.py:send():379] send: exit
+2025-03-13 17:27:37,228 INFO    SenderThread:13124 [sender.py:send_exit():584] handling exit code: 1
+2025-03-13 17:27:37,228 INFO    SenderThread:13124 [sender.py:send_exit():586] handling runtime: 2
+2025-03-13 17:27:37,231 INFO    SenderThread:13124 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2025-03-13 17:27:37,231 INFO    SenderThread:13124 [sender.py:send_exit():592] send defer
+2025-03-13 17:27:37,231 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: defer
+2025-03-13 17:27:37,231 INFO    HandlerThread:13124 [handler.py:handle_request_defer():170] handle defer: 0
+2025-03-13 17:27:37,231 DEBUG   SenderThread:13124 [sender.py:send_request():406] send_request: defer
+2025-03-13 17:27:37,231 INFO    SenderThread:13124 [sender.py:send_request_defer():608] handle sender defer: 0
+2025-03-13 17:27:37,231 INFO    SenderThread:13124 [sender.py:transition_state():612] send defer: 1
+2025-03-13 17:27:37,231 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: defer
+2025-03-13 17:27:37,231 INFO    HandlerThread:13124 [handler.py:handle_request_defer():170] handle defer: 1
+2025-03-13 17:27:37,231 DEBUG   SenderThread:13124 [sender.py:send_request():406] send_request: defer
+2025-03-13 17:27:37,231 INFO    SenderThread:13124 [sender.py:send_request_defer():608] handle sender defer: 1
+2025-03-13 17:27:37,232 INFO    SenderThread:13124 [sender.py:transition_state():612] send defer: 2
+2025-03-13 17:27:37,232 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: defer
+2025-03-13 17:27:37,232 INFO    HandlerThread:13124 [handler.py:handle_request_defer():170] handle defer: 2
+2025-03-13 17:27:37,232 INFO    HandlerThread:13124 [system_monitor.py:finish():190] Stopping system monitor
+2025-03-13 17:27:37,232 DEBUG   SystemMonitor:13124 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2025-03-13 17:27:37,232 DEBUG   SystemMonitor:13124 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2025-03-13 17:27:37,232 DEBUG   SystemMonitor:13124 [system_monitor.py:_start():170] Publishing last batch of metrics
+2025-03-13 17:27:37,232 INFO    HandlerThread:13124 [interfaces.py:finish():202] Joined cpu monitor
+2025-03-13 17:27:37,235 INFO    HandlerThread:13124 [interfaces.py:finish():202] Joined disk monitor
+2025-03-13 17:27:37,252 INFO    HandlerThread:13124 [interfaces.py:finish():202] Joined gpu monitor
+2025-03-13 17:27:37,252 INFO    HandlerThread:13124 [interfaces.py:finish():202] Joined memory monitor
+2025-03-13 17:27:37,252 INFO    HandlerThread:13124 [interfaces.py:finish():202] Joined network monitor
+2025-03-13 17:27:37,252 DEBUG   SenderThread:13124 [sender.py:send_request():406] send_request: defer
+2025-03-13 17:27:37,252 INFO    SenderThread:13124 [sender.py:send_request_defer():608] handle sender defer: 2
+2025-03-13 17:27:37,252 INFO    SenderThread:13124 [sender.py:transition_state():612] send defer: 3
+2025-03-13 17:27:37,252 DEBUG   SenderThread:13124 [sender.py:send():379] send: stats
+2025-03-13 17:27:37,252 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: defer
+2025-03-13 17:27:37,252 INFO    HandlerThread:13124 [handler.py:handle_request_defer():170] handle defer: 3
+2025-03-13 17:27:37,252 DEBUG   SenderThread:13124 [sender.py:send_request():406] send_request: defer
+2025-03-13 17:27:37,252 INFO    SenderThread:13124 [sender.py:send_request_defer():608] handle sender defer: 3
+2025-03-13 17:27:37,253 INFO    SenderThread:13124 [sender.py:transition_state():612] send defer: 4
+2025-03-13 17:27:37,253 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: defer
+2025-03-13 17:27:37,253 INFO    HandlerThread:13124 [handler.py:handle_request_defer():170] handle defer: 4
+2025-03-13 17:27:37,253 DEBUG   SenderThread:13124 [sender.py:send_request():406] send_request: defer
+2025-03-13 17:27:37,253 INFO    SenderThread:13124 [sender.py:send_request_defer():608] handle sender defer: 4
+2025-03-13 17:27:37,253 INFO    SenderThread:13124 [sender.py:transition_state():612] send defer: 5
+2025-03-13 17:27:37,253 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: defer
+2025-03-13 17:27:37,253 INFO    HandlerThread:13124 [handler.py:handle_request_defer():170] handle defer: 5
+2025-03-13 17:27:37,253 DEBUG   SenderThread:13124 [sender.py:send():379] send: summary
+2025-03-13 17:27:37,255 INFO    SenderThread:13124 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2025-03-13 17:27:37,255 DEBUG   SenderThread:13124 [sender.py:send_request():406] send_request: defer
+2025-03-13 17:27:37,255 INFO    SenderThread:13124 [sender.py:send_request_defer():608] handle sender defer: 5
+2025-03-13 17:27:37,255 INFO    SenderThread:13124 [sender.py:transition_state():612] send defer: 6
+2025-03-13 17:27:37,255 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: defer
+2025-03-13 17:27:37,255 INFO    HandlerThread:13124 [handler.py:handle_request_defer():170] handle defer: 6
+2025-03-13 17:27:37,255 DEBUG   SenderThread:13124 [sender.py:send_request():406] send_request: defer
+2025-03-13 17:27:37,255 INFO    SenderThread:13124 [sender.py:send_request_defer():608] handle sender defer: 6
+2025-03-13 17:27:37,257 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: status_report
+2025-03-13 17:27:37,527 INFO    SenderThread:13124 [sender.py:transition_state():612] send defer: 7
+2025-03-13 17:27:37,527 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: defer
+2025-03-13 17:27:37,527 INFO    HandlerThread:13124 [handler.py:handle_request_defer():170] handle defer: 7
+2025-03-13 17:27:37,528 DEBUG   SenderThread:13124 [sender.py:send_request():406] send_request: defer
+2025-03-13 17:27:37,528 INFO    SenderThread:13124 [sender.py:send_request_defer():608] handle sender defer: 7
+2025-03-13 17:27:37,753 INFO    Thread-16 :13124 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250313_172728-f2h8kcgg\files\config.yaml
+2025-03-13 17:27:37,753 INFO    Thread-16 :13124 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250313_172728-f2h8kcgg\files\conda-environment.yaml
+2025-03-13 17:27:37,753 INFO    Thread-16 :13124 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250313_172728-f2h8kcgg\files\wandb-summary.json
+2025-03-13 17:27:37,753 INFO    Thread-16 :13124 [dir_watcher.py:_on_file_created():272] file/dir created: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250313_172728-f2h8kcgg\files\wandb-metadata.json
+2025-03-13 17:27:37,753 INFO    Thread-16 :13124 [dir_watcher.py:_on_file_created():272] file/dir created: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250313_172728-f2h8kcgg\files\output.log
+2025-03-13 17:27:37,942 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: poll_exit
+2025-03-13 17:27:39,267 INFO    SenderThread:13124 [sender.py:transition_state():612] send defer: 8
+2025-03-13 17:27:39,267 DEBUG   SenderThread:13124 [sender.py:send_request():406] send_request: poll_exit
+2025-03-13 17:27:39,268 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: defer
+2025-03-13 17:27:39,268 INFO    HandlerThread:13124 [handler.py:handle_request_defer():170] handle defer: 8
+2025-03-13 17:27:39,268 DEBUG   SenderThread:13124 [sender.py:send_request():406] send_request: defer
+2025-03-13 17:27:39,268 INFO    SenderThread:13124 [sender.py:send_request_defer():608] handle sender defer: 8
+2025-03-13 17:27:39,268 INFO    SenderThread:13124 [job_builder.py:build():280] Attempting to build job artifact
+2025-03-13 17:27:39,268 INFO    SenderThread:13124 [job_builder.py:_get_source_type():400] no source found
+2025-03-13 17:27:39,268 INFO    SenderThread:13124 [sender.py:transition_state():612] send defer: 9
+2025-03-13 17:27:39,269 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: defer
+2025-03-13 17:27:39,269 INFO    HandlerThread:13124 [handler.py:handle_request_defer():170] handle defer: 9
+2025-03-13 17:27:39,269 DEBUG   SenderThread:13124 [sender.py:send_request():406] send_request: defer
+2025-03-13 17:27:39,269 INFO    SenderThread:13124 [sender.py:send_request_defer():608] handle sender defer: 9
+2025-03-13 17:27:39,269 INFO    SenderThread:13124 [dir_watcher.py:finish():359] shutting down directory watcher
+2025-03-13 17:27:39,758 INFO    SenderThread:13124 [dir_watcher.py:_on_file_modified():289] file/dir modified: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250313_172728-f2h8kcgg\files\output.log
+2025-03-13 17:27:39,758 INFO    SenderThread:13124 [dir_watcher.py:finish():389] scan: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250313_172728-f2h8kcgg\files
+2025-03-13 17:27:39,758 INFO    SenderThread:13124 [dir_watcher.py:finish():403] scan save: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250313_172728-f2h8kcgg\files\config.yaml config.yaml
+2025-03-13 17:27:39,759 INFO    SenderThread:13124 [dir_watcher.py:finish():403] scan save: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250313_172728-f2h8kcgg\files\wandb-summary.json wandb-summary.json
+2025-03-13 17:27:39,759 INFO    SenderThread:13124 [dir_watcher.py:finish():403] scan save: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250313_172728-f2h8kcgg\files\requirements.txt requirements.txt
+2025-03-13 17:27:39,761 INFO    SenderThread:13124 [dir_watcher.py:finish():403] scan save: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250313_172728-f2h8kcgg\files\conda-environment.yaml conda-environment.yaml
+2025-03-13 17:27:39,762 INFO    SenderThread:13124 [dir_watcher.py:finish():403] scan save: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250313_172728-f2h8kcgg\files\wandb-metadata.json wandb-metadata.json
+2025-03-13 17:27:39,762 INFO    SenderThread:13124 [dir_watcher.py:finish():403] scan save: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250313_172728-f2h8kcgg\files\output.log output.log
+2025-03-13 17:27:39,764 INFO    SenderThread:13124 [sender.py:transition_state():612] send defer: 10
+2025-03-13 17:27:39,764 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: defer
+2025-03-13 17:27:39,764 INFO    HandlerThread:13124 [handler.py:handle_request_defer():170] handle defer: 10
+2025-03-13 17:27:39,765 DEBUG   SenderThread:13124 [sender.py:send_request():406] send_request: defer
+2025-03-13 17:27:39,765 INFO    SenderThread:13124 [sender.py:send_request_defer():608] handle sender defer: 10
+2025-03-13 17:27:39,767 INFO    SenderThread:13124 [file_pusher.py:finish():159] shutting down file pusher
+2025-03-13 17:27:42,961 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: keepalive
+2025-03-13 17:27:43,037 INFO    wandb-upload_4:13124 [upload_job.py:push():131] Uploaded file E:\zjh\pykt-toolkit-main\examples\wandb\run-20250313_172728-f2h8kcgg\files\conda-environment.yaml
+2025-03-13 17:27:44,793 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: status_report
+2025-03-13 17:27:47,992 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: keepalive
+2025-03-13 17:27:49,823 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: status_report
+2025-03-13 17:27:53,010 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: keepalive
+2025-03-13 17:27:53,610 INFO    wandb-upload_5:13124 [upload_job.py:push():131] Uploaded file E:\zjh\pykt-toolkit-main\examples\wandb\run-20250313_172728-f2h8kcgg\files\output.log
+2025-03-13 17:27:54,847 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: status_report
+2025-03-13 17:27:55,397 ERROR   wandb-upload_0:13124 [internal_api.py:upload_file():2290] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jnugojo-jinan-university/uncategorized/f2h8kcgg/wandb-metadata.json?Expires=1741944458&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=FeVMbXhn9L6J4X%2FEU0PfCutbuiTj02AVwIOAVMguqiZXUyFo0BSwUJqaCySYPrp0mpZf3WuhvQeCSEv9utfH6tW10otlCpOmlFk8C%2Fp55G4Z7EWJwPxWMyqpkp%2Fe9gCE2pXE4uHg27ZVmVRpi%2BlBYXTnYn6GIaPbctbfQwVuvx8iuQQTM3Q2b4ChhYQZgn5JmaBpytyLJnGU%2FD6NW5jtCp7CaHZCnlyzc77nQFbJCLdXfKk%2B6WQF60pWFGfX7VEtdB5M0WxY%2BDeM9990M7oc4HgwkXrZ%2BV1NgkP3mg%2FG0vFPL9aELd7mnDXiPI%2FGDlva1RureJOvAZ3J81ZMkuwsHA%3D%3D: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-03-13 17:27:55,397 ERROR   wandb-upload_0:13124 [internal_api.py:upload_file():2292] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1137'}
+2025-03-13 17:27:55,397 ERROR   wandb-upload_0:13124 [internal_api.py:upload_file():2294] upload_file response body: 
+2025-03-13 17:27:57,581 INFO    wandb-upload_0:13124 [upload_job.py:push():131] Uploaded file C:\Users\IERI1\AppData\Local\Temp\tmp1v3t57jgwandb\zvpfvj2x-wandb-metadata.json
+2025-03-13 17:27:57,939 ERROR   wandb-upload_1:13124 [internal_api.py:upload_file():2290] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jnugojo-jinan-university/uncategorized/f2h8kcgg/config.yaml?Expires=1741944460&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=Hs4l1Z%2BNTS8TiGkXSso%2FclMqMZ%2FNvQ9i6wamllRS7bFGB3rZ4lPDNbnrNz806uf47rhVPIi2UAvOyyz%2FCKhsXehJ6zVal6hq7mwX6kp4hnzNRR%2BenemVH%2FeBXHZ%2BicbsbTc6R%2BAqfT4aFDHQFHWrymkltDiekSSiDCoeZ726cjhmRO26iQGfKYulrMK6LKagnRuEXqmaBBUr6s9aXXM45eVaZgfiRl%2F%2Fu%2FkR1cRRF%2Fj8Hre0zlK7%2FoY2Kv4vBOvowravOtXCWkvponhTw%2FHNP8sjzZwFkwb8gdYd9JUrOc9OVZCOzKTRgtvHbmLMzvahi%2B46%2FJ2HtlxbCeJB3%2FD55w%3D%3D: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-03-13 17:27:57,939 ERROR   wandb-upload_1:13124 [internal_api.py:upload_file():2292] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '426'}
+2025-03-13 17:27:57,939 ERROR   wandb-upload_1:13124 [internal_api.py:upload_file():2294] upload_file response body: 
+2025-03-13 17:27:58,045 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: keepalive
+2025-03-13 17:27:58,931 ERROR   wandb-upload_2:13124 [internal_api.py:upload_file():2290] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jnugojo-jinan-university/uncategorized/f2h8kcgg/wandb-summary.json?Expires=1741944460&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=Nbm3LMkNcJnTfc0qk%2BGOrYhZaNbSHAHeYBkn8P1KZ1A41oQN0fJut0xVSh0WVouMth4CaIxSsidulVmO3jE96ElldHTSGPKXedJLkFiiBVAUnofggEiF0oV2bv5RwGVbE2fGzZhbV%2B6bLv37rssWeg0IOGpoaUrGlq63CHfKpJBsdPtscBgZ6vTMoE6Gaj9NHZ%2FJz3Ysnuz9TGHTj32wcN9FoZrss44vPQ0U2IgrSiBft44EjjPqHo2H39%2Fko3axSCHMdFTdcYHYnjGjfTsFNaPe5Ksn4Avpunf6jgSNphBUgcI%2FtLbuj%2FdHMIMusaAvgNUSKdbOx5CWRMzWQriZSA%3D%3D: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-03-13 17:27:58,931 ERROR   wandb-upload_2:13124 [internal_api.py:upload_file():2292] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '26'}
+2025-03-13 17:27:58,931 ERROR   wandb-upload_2:13124 [internal_api.py:upload_file():2294] upload_file response body: 
+2025-03-13 17:27:59,882 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: status_report
+2025-03-13 17:28:03,073 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: keepalive
+2025-03-13 17:28:04,906 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: status_report
+2025-03-13 17:28:05,269 INFO    wandb-upload_3:13124 [upload_job.py:push():131] Uploaded file E:\zjh\pykt-toolkit-main\examples\wandb\run-20250313_172728-f2h8kcgg\files\requirements.txt
+2025-03-13 17:28:08,097 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: keepalive
+2025-03-13 17:28:09,933 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: status_report
+2025-03-13 17:28:13,120 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: keepalive
+2025-03-13 17:28:14,955 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: status_report
+2025-03-13 17:28:15,485 INFO    wandb-upload_2:13124 [upload_job.py:push():131] Uploaded file E:\zjh\pykt-toolkit-main\examples\wandb\run-20250313_172728-f2h8kcgg\files\wandb-summary.json
+2025-03-13 17:28:18,138 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: keepalive
+2025-03-13 17:28:19,989 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: status_report
+2025-03-13 17:28:20,455 ERROR   wandb-upload_1:13124 [internal_api.py:upload_file():2290] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jnugojo-jinan-university/uncategorized/f2h8kcgg/config.yaml?Expires=1741944460&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=Hs4l1Z%2BNTS8TiGkXSso%2FclMqMZ%2FNvQ9i6wamllRS7bFGB3rZ4lPDNbnrNz806uf47rhVPIi2UAvOyyz%2FCKhsXehJ6zVal6hq7mwX6kp4hnzNRR%2BenemVH%2FeBXHZ%2BicbsbTc6R%2BAqfT4aFDHQFHWrymkltDiekSSiDCoeZ726cjhmRO26iQGfKYulrMK6LKagnRuEXqmaBBUr6s9aXXM45eVaZgfiRl%2F%2Fu%2FkR1cRRF%2Fj8Hre0zlK7%2FoY2Kv4vBOvowravOtXCWkvponhTw%2FHNP8sjzZwFkwb8gdYd9JUrOc9OVZCOzKTRgtvHbmLMzvahi%2B46%2FJ2HtlxbCeJB3%2FD55w%3D%3D: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-03-13 17:28:20,456 ERROR   wandb-upload_1:13124 [internal_api.py:upload_file():2292] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '426'}
+2025-03-13 17:28:20,456 ERROR   wandb-upload_1:13124 [internal_api.py:upload_file():2294] upload_file response body: 
+2025-03-13 17:28:23,162 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: keepalive
+2025-03-13 17:28:25,010 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: status_report
+2025-03-13 17:28:28,185 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: keepalive
+2025-03-13 17:28:30,036 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: status_report
+2025-03-13 17:28:33,210 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: keepalive
+2025-03-13 17:28:35,061 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: status_report
+2025-03-13 17:28:37,781 ERROR   wandb-upload_1:13124 [internal_api.py:upload_file():2290] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/jnugojo-jinan-university/uncategorized/f2h8kcgg/config.yaml?Expires=1741944460&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=Hs4l1Z%2BNTS8TiGkXSso%2FclMqMZ%2FNvQ9i6wamllRS7bFGB3rZ4lPDNbnrNz806uf47rhVPIi2UAvOyyz%2FCKhsXehJ6zVal6hq7mwX6kp4hnzNRR%2BenemVH%2FeBXHZ%2BicbsbTc6R%2BAqfT4aFDHQFHWrymkltDiekSSiDCoeZ726cjhmRO26iQGfKYulrMK6LKagnRuEXqmaBBUr6s9aXXM45eVaZgfiRl%2F%2Fu%2FkR1cRRF%2Fj8Hre0zlK7%2FoY2Kv4vBOvowravOtXCWkvponhTw%2FHNP8sjzZwFkwb8gdYd9JUrOc9OVZCOzKTRgtvHbmLMzvahi%2B46%2FJ2HtlxbCeJB3%2FD55w%3D%3D: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-03-13 17:28:37,781 ERROR   wandb-upload_1:13124 [internal_api.py:upload_file():2292] upload_file request headers: {'User-Agent': 'python-requests/2.29.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '426'}
+2025-03-13 17:28:37,781 ERROR   wandb-upload_1:13124 [internal_api.py:upload_file():2294] upload_file response body: 
+2025-03-13 17:28:38,230 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: keepalive
+2025-03-13 17:28:40,081 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: status_report
+2025-03-13 17:28:43,259 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: keepalive
+2025-03-13 17:28:45,111 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: status_report
+2025-03-13 17:28:48,286 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: keepalive
+2025-03-13 17:28:50,134 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: status_report
+2025-03-13 17:28:50,833 INFO    wandb-upload_1:13124 [upload_job.py:push():131] Uploaded file E:\zjh\pykt-toolkit-main\examples\wandb\run-20250313_172728-f2h8kcgg\files\config.yaml
+2025-03-13 17:28:51,046 INFO    Thread-15 :13124 [sender.py:transition_state():612] send defer: 11
+2025-03-13 17:28:51,046 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: defer
+2025-03-13 17:28:51,046 INFO    HandlerThread:13124 [handler.py:handle_request_defer():170] handle defer: 11
+2025-03-13 17:28:51,046 DEBUG   SenderThread:13124 [sender.py:send_request():406] send_request: defer
+2025-03-13 17:28:51,046 INFO    SenderThread:13124 [sender.py:send_request_defer():608] handle sender defer: 11
+2025-03-13 17:28:51,046 INFO    SenderThread:13124 [file_pusher.py:join():164] waiting for file pusher
+2025-03-13 17:28:51,046 INFO    SenderThread:13124 [sender.py:transition_state():612] send defer: 12
+2025-03-13 17:28:51,046 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: defer
+2025-03-13 17:28:51,047 INFO    HandlerThread:13124 [handler.py:handle_request_defer():170] handle defer: 12
+2025-03-13 17:28:51,047 DEBUG   SenderThread:13124 [sender.py:send_request():406] send_request: defer
+2025-03-13 17:28:51,047 INFO    SenderThread:13124 [sender.py:send_request_defer():608] handle sender defer: 12
+2025-03-13 17:28:51,289 INFO    SenderThread:13124 [sender.py:transition_state():612] send defer: 13
+2025-03-13 17:28:51,289 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: defer
+2025-03-13 17:28:51,289 INFO    HandlerThread:13124 [handler.py:handle_request_defer():170] handle defer: 13
+2025-03-13 17:28:51,289 DEBUG   SenderThread:13124 [sender.py:send_request():406] send_request: defer
+2025-03-13 17:28:51,289 INFO    SenderThread:13124 [sender.py:send_request_defer():608] handle sender defer: 13
+2025-03-13 17:28:51,290 INFO    SenderThread:13124 [sender.py:transition_state():612] send defer: 14
+2025-03-13 17:28:51,290 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: defer
+2025-03-13 17:28:51,290 INFO    HandlerThread:13124 [handler.py:handle_request_defer():170] handle defer: 14
+2025-03-13 17:28:51,290 DEBUG   SenderThread:13124 [sender.py:send():379] send: final
+2025-03-13 17:28:51,290 DEBUG   SenderThread:13124 [sender.py:send():379] send: footer
+2025-03-13 17:28:51,290 DEBUG   SenderThread:13124 [sender.py:send_request():406] send_request: defer
+2025-03-13 17:28:51,290 INFO    SenderThread:13124 [sender.py:send_request_defer():608] handle sender defer: 14
+2025-03-13 17:28:51,291 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: poll_exit
+2025-03-13 17:28:51,291 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: server_info
+2025-03-13 17:28:51,291 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: get_summary
+2025-03-13 17:28:51,291 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: sampled_history
+2025-03-13 17:28:51,291 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: job_info
+2025-03-13 17:28:51,292 DEBUG   SenderThread:13124 [sender.py:send_request():406] send_request: poll_exit
+2025-03-13 17:28:51,292 DEBUG   SenderThread:13124 [sender.py:send_request():406] send_request: server_info
+2025-03-13 17:28:53,194 DEBUG   SenderThread:13124 [sender.py:send_request():406] send_request: job_info
+2025-03-13 17:28:53,195 INFO    MainThread:13124 [wandb_run.py:_footer_history_summary_info():3475] rendering history
+2025-03-13 17:28:53,195 INFO    MainThread:13124 [wandb_run.py:_footer_history_summary_info():3507] rendering summary
+2025-03-13 17:28:53,195 INFO    MainThread:13124 [wandb_run.py:_footer_sync_info():3434] logging synced files
+2025-03-13 17:28:53,195 DEBUG   HandlerThread:13124 [handler.py:handle_request():144] handle_request: shutdown
+2025-03-13 17:28:53,195 INFO    HandlerThread:13124 [handler.py:finish():857] shutting down handler
+2025-03-13 17:28:53,311 INFO    WriterThread:13124 [datastore.py:close():294] close: E:\zjh\pykt-toolkit-main\examples\wandb\run-20250313_172728-f2h8kcgg\run-f2h8kcgg.wandb
+2025-03-13 17:28:54,206 INFO    SenderThread:13124 [sender.py:finish():1552] shutting down sender
+2025-03-13 17:28:54,206 INFO    SenderThread:13124 [file_pusher.py:finish():159] shutting down file pusher
+2025-03-13 17:28:54,206 INFO    SenderThread:13124 [file_pusher.py:join():164] waiting for file pusher

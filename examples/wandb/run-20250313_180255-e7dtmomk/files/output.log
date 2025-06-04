@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "E:\zjh\pykt-toolkit-main\examples\wandb_skvmn_train.py", line 27, in <module>
+    main(params)
+  File "E:\zjh\pykt-toolkit-main\examples\wandb_train.py", line 44, in main
+    train_config = config["train_config"]
+KeyError: 'train_config'
+2025-03-13 18:03:00 - main - said: load config files.

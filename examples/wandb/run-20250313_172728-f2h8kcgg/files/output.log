@@ -1,0 +1,8 @@
+
+2025-03-13 17:27:36 - main - said: load config files.
+Traceback (most recent call last):
+  File "E:\zjh\pykt-toolkit-main\examples\wandb_simplekt_train.py", line 36, in <module>
+    main(params)
+  File "E:\zjh\pykt-toolkit-main\examples\wandb_train.py", line 44, in main
+    train_config = config["train_config"]
+KeyError: 'train_config'
