@@ -27,9 +27,9 @@ pip install -U pykt-toolkit -i  https://pypi.python.org/simple
 然后新建data/数据集名称的文件夹，并把数据放到其下面
 
 ## 运行步骤
-首先选定好数据集运行data_preprocess.py处理数据
-然后运行wandb_dkt_train.py进行训练的到saved_model文件夹下训练好的dkt模型
-接着运行get_ori_ks.py得到初始测试集的初始知识掌握状态
-然后加入训练好的dkt模型在data_insert.py运行，得到插入后的的测试集
-再运行get_topk_ks.py得到推荐后的知识掌握状态
+首先选定好数据集运行data_preprocess.py处理数据  
+然后运行wandb_dkt_train.py进行训练的到saved_model文件夹下训练好的dkt模型  
+接着运行get_ori_ks.py得到初始测试集的初始知识掌握状态  
+然后加入训练好的dkt模型在data_insert.py运行，得到插入后的的测试集  
+再运行get_topk_ks.py得到推荐后的知识掌握状态  
 最后运行evaluate.py得到结果
